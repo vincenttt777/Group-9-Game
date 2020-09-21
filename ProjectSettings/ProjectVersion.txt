@@ -1,2 +1,2 @@
-m_EditorVersion: UnknownUnityVersion
-m_EditorVersionWithRevision: UnknownUnityVersion
+m_EditorVersion: 2019.4.10f1
+m_EditorVersionWithRevision: 2019.4.10f1 (5311b3af6f69)
