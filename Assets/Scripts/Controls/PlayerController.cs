@@ -4,6 +4,8 @@
 Controls the player input and moves character on screen
 */
 
+// this is cade, testing the github usage
+
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
