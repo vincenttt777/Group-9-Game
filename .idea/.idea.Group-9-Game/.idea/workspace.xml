@@ -20,19 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Interactables.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Interactables.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ControlsTesting.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ControlsTesting.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interactable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/ControlsTesting.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/ControlsTesting.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +48,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600735725482</updated>
       <workItem from="1600735736854" duration="2341000" />
-      <workItem from="1600795281338" duration="1204000" />
+      <workItem from="1600795281338" duration="1764000" />
     </task>
     <servers />
   </component>

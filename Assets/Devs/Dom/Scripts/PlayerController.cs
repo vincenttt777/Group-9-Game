@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     private CharacterController _characterController;
     private Vector3 _facingDirection = Vector3.back;
     private Vector3 _moveVector;
+    private float _speedMod = 1f;
     
     
     private void Awake()
@@ -28,9 +29,11 @@ public class PlayerController : MonoBehaviour
         // Get player input data
         _moveVector.x = Input.GetAxis("Horizontal");
         _moveVector.z = Input.GetAxis("Vertical");
+
+        _speedMod = Input.GetKey(KeyCode.LeftShift) ?  0.5f : 1f;
         
         // Prevent movement from exceeding a factor of 1, useful for diagonals.
-        _moveVector = Vector3.ClampMagnitude(_moveVector, 1f);
+        _moveVector = Vector3.ClampMagnitude(_moveVector, _speedMod);
 
         // If moving, change the facing direction
         if (_moveVector != Vector3.zero)
