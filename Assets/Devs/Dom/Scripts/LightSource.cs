@@ -8,7 +8,7 @@
 // will always has a component. GetComponent<Light>() will never throw a null error in code
 [RequireComponent(typeof(Light))]
 
-public class LightSource : Interactable
+public class LightSource : MonoBehaviour, Interactable
 {
     // Boolean for the state of the light, public so it can be set in inspector
     public bool lightActive = false;
@@ -20,6 +20,7 @@ public class LightSource : Interactable
     public GameObject onObject;
     public GameObject offObject;
 
+    
     // Unity calls this before anything at all happens in game
     private void Awake()
     {
@@ -28,14 +29,16 @@ public class LightSource : Interactable
         
         SetLightActive(lightActive); // Set the initial state of the light to begin with
     }
+    
 
     // IMPORTANT! This is an override of the Interactable OnUse function that the player can call on the object
-    public override void OnUse()
+    public void OnUse()
     {
         lightActive = !lightActive;  // Flip the light's boolean on/off state
         SetLightActive(lightActive); // Set the light's new state
     }
 
+    
     private void SetLightActive(bool active)
     {
         // Set the unity light source

@@ -16,11 +16,13 @@ public class PlayerController : MonoBehaviour
     private Vector3 _facingDirection = Vector3.back;
     private Vector3 _moveVector;
     
+    
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
     }
 
+    
     private void Update()
     {
         // Get player input data
@@ -48,18 +50,21 @@ public class PlayerController : MonoBehaviour
         UpdateAnimator();
     }
 
+    
     private void UseObjects()
     {
-        RaycastHit[] selectedObjects = Physics.SphereCastAll(transform.position + _facingDirection, 0.5f, _facingDirection);
+        var selectedObjects = Physics.SphereCastAll(transform.position + _facingDirection * 0.2f, 0.35f, _facingDirection, 0.5f);
         foreach (var hit in selectedObjects)
         {
-            if (!hit.transform.gameObject.GetComponent<Interactable>()) continue;
-                
-            hit.transform.GetComponent<Interactable>().OnUse();
-            break;
+            if (hit.transform.gameObject.GetComponent<Interactable>() != null)
+            {
+                hit.transform.gameObject.GetComponent<Interactable>().OnUse();
+                break;
+            }
         }
     }
 
+    
     private void UpdateAnimator()
     {
         animator.SetFloat("x", _facingDirection.x);
