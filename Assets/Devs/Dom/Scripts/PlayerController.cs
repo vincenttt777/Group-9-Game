@@ -38,9 +38,26 @@ public class PlayerController : MonoBehaviour
 
         // Update the character controller to perform the move
         _characterController.SimpleMove(_moveVector * _moveSpeed);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            UseObjects();
+        }
         
         // Send animator the movement data for visuals
         UpdateAnimator();
+    }
+
+    private void UseObjects()
+    {
+        RaycastHit[] selectedObjects = Physics.SphereCastAll(transform.position + _facingDirection, 0.5f, _facingDirection);
+        foreach (var hit in selectedObjects)
+        {
+            if (!hit.transform.gameObject.GetComponent<Interactable>()) continue;
+                
+            hit.transform.GetComponent<Interactable>().OnUse();
+            break;
+        }
     }
 
     private void UpdateAnimator()
