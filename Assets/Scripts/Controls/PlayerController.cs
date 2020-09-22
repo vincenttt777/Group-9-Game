@@ -10,7 +10,7 @@ Controls the player input and moves character on screen
 public class PlayerController : MonoBehaviour
 {
     public Animator animator;    // Where to send animation data to
-    public float _moveSpeed = 1f;    // How fast player will move
+    public float _moveSpeed = 5f;    // How fast player will move
     
     private CharacterController _characterController;
     private Vector3 _facingDirection = Vector3.back;
