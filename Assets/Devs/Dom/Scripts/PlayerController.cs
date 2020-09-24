@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
 
         // Update the character controller to perform the move
         _characterController.SimpleMove(_moveVector * _moveSpeed);
+        transform.forward = _facingDirection;
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -73,5 +74,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("x", _facingDirection.x);
         animator.SetFloat("y", _facingDirection.z);
         animator.SetFloat("speed", _moveVector.magnitude);
+        animator.GetComponent<SpriteRenderer>().flipX = _facingDirection.x >= 0;
+        animator.transform.eulerAngles = Vector3.zero;
     }
 }

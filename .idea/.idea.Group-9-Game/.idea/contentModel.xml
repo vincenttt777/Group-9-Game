@@ -15,6 +15,12 @@
               <e p="PlayerController.cs" t="Include" />
               <e p="Spinner.cs" t="Include" />
             </e>
+            <e p="Shaders" t="Include">
+              <e p="Includes" t="Include">
+                <e p="lighting.hlsl" t="Include" />
+              </e>
+              <e p="ShadowReceiver.shader" t="Include" />
+            </e>
           </e>
         </e>
       </e>
