@@ -20,38 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/LightTests.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/LightTests.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Test.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Test.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Includes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Includes/lighting.hlsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Includes/lighting.hlsl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_2Step.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_2Step.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step_Dark.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step_Dark.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Default.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Default.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightOff.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightOff.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightOn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightOn.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Walls.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +95,7 @@
       <workItem from="1600735736854" duration="2341000" />
       <workItem from="1600795281338" duration="1764000" />
       <workItem from="1600885759615" duration="2228000" />
-      <workItem from="1600967374893" duration="494000" />
+      <workItem from="1600967374893" duration="737000" />
     </task>
     <servers />
   </component>
