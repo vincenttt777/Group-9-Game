@@ -6,22 +6,40 @@
       <e p="Assets" t="Include">
         <e p="Devs" t="Include">
           <e p="Dom" t="Include">
+            <e p="Resources" t="Include">
+              <e p="AutoLight.cginc" t="Include" />
+            </e>
             <e p="Scripts" t="Include">
+              <e p="Arrow.cs" t="Include" />
+              <e p="Billboard.cs" t="Include" />
+              <e p="Bow.cs" t="Include" />
+              <e p="CameraMatrix.cs" t="Include" />
               <e p="ColorChangePad.cs" t="Include" />
               <e p="ColorChanger.cs" t="Include" />
+              <e p="DestroyAfterSeconds.cs" t="Include" />
               <e p="GameCamera.cs" t="Include" />
               <e p="Interactable.cs" t="Include" />
               <e p="LightSource.cs" t="Include" />
               <e p="PlayerController.cs" t="Include" />
+              <e p="Projectile.cs" t="Include" />
               <e p="Spinner.cs" t="Include" />
+              <e p="Sword.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
             </e>
             <e p="Shaders" t="Include">
+              <e p="CustomStandard.shader" t="Include" />
+              <e p="DoubleSided.shader" t="Include" />
               <e p="Includes" t="Include">
                 <e p="lighting.hlsl" t="Include" />
               </e>
               <e p="ShadowReceiver.shader" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="UnityStandardCore.cginc" t="Include" />
+          <e p="UnityStandardCoreForward.cginc" t="Include" />
+          <e p="UnityStandardShadow.cginc" t="Include" />
         </e>
       </e>
       <e p="Group-9-Game.sln" t="IncludeFlat" />

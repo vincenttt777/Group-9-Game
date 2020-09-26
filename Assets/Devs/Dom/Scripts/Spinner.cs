@@ -8,13 +8,12 @@
 public class Spinner : MonoBehaviour, Interactable
 {
     public float rotateSpeed = 150f; // Speed at which object will spin
-    
-    private bool _spinning = false; // flag for if the spin should be happening or not
+    public bool spinning = false; // flag for if the spin should be happening or not
 
     // Update is called once per frame
     void Update()
     {
-        if (_spinning)
+        if (spinning)
         {
             // Create a new rotation on the Y axis by grabbing Euler Angles, and adding to the Y axis.
             // Because this happens every frame we need to multiply by Time.deltaTime so that it won't spin faster on a faster PC.
@@ -28,6 +27,6 @@ public class Spinner : MonoBehaviour, Interactable
     public void OnUse()
     {
         // Toggle spinning on use
-        _spinning = !_spinning;
+        spinning = !spinning;
     }
 }

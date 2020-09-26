@@ -9,6 +9,7 @@ public class ColorChangePad : MonoBehaviour
     // IMPORTANT: For this function to work, object needs a collider that is set to 'trigger'.
     public void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.gameObject.tag);
         // Check if the object that entered the trigger has the tag 'Player'
         if (other.gameObject.tag == "Player")
         {

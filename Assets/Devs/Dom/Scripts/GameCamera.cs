@@ -13,6 +13,8 @@ public class GameCamera : MonoBehaviour
 
     private Vector3 _velocity; // Used to store velocity of camera movement for smoothing
 
+    public PlayerController playerController;
+
     private void LateUpdate()
     {
         // Smoothly move to target + offset
