@@ -17,6 +17,7 @@
               <e p="ColorChangePad.cs" t="Include" />
               <e p="ColorChanger.cs" t="Include" />
               <e p="DestroyAfterSeconds.cs" t="Include" />
+              <e p="DoorTest.cs" t="Include" />
               <e p="GameCamera.cs" t="Include" />
               <e p="Interactable.cs" t="Include" />
               <e p="LightSource.cs" t="Include" />
