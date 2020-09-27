@@ -218,7 +218,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 593cdf4ebf97c04419cc3a4a22403f36, type: 2}
+  - {fileID: 2100000, guid: ac3a47780de6c224b9ef7df98f0f310e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -666,7 +666,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 301123900}
-  - component: {fileID: 301123902}
   - component: {fileID: 301123901}
   m_Layer: 0
   m_Name: Gun
@@ -713,18 +712,6 @@ MonoBehaviour:
   shootingPoint: {fileID: 577239233}
   muzzleFlash: {fileID: 941265512}
   impactEffect: {fileID: 1045418184}
---- !u!114 &301123902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301123899}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb3220176b6cb9e46b3e196e0e38e3fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &467324528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,6 +1127,7 @@ MonoBehaviour:
   cameraTarget: {fileID: 1998160945}
   positionOffset: {x: 0, y: 21, z: -21}
   smoothAmount: 0.2
+  playerController: {fileID: 0}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2001,6 +1989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 150
+  spinning: 0
 --- !u!65 &1404697553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2139,7 +2128,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 593cdf4ebf97c04419cc3a4a22403f36, type: 2}
+  - {fileID: 2100000, guid: ac3a47780de6c224b9ef7df98f0f310e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3311,7 +3300,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 196009209}
-  _moveSpeed: 4
+  moveSpeed: 4
+  weapons:
+  - {fileID: 0}
+  - {fileID: 301123901}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  facingDirection: {x: 0, y: 0, z: -1}
+  currentWeapon: 1
 --- !u!1 &2085051703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3499,6 +3499,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2350592134520202552, guid: 0ffefde04c803d74a8be576b3482e38c,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ffefde04c803d74a8be576b3482e38c, type: 3}
 --- !u!1001 &4790129724312835134
@@ -3567,6 +3572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Impact
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936488696702300366, guid: 6c1a346a8f15ef744b1317a57980f93b,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c1a346a8f15ef744b1317a57980f93b, type: 3}

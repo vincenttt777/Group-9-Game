@@ -19,60 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Materials/SparkParticles.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Materials/SparkParticles.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/ArrowSparks.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/ArrowSparks.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Arrow_Broadhead.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Arrow_Broadhead.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Resources/AutoLight.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Resources/AutoLight.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/BowAndArrow.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/BowAndArrow.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Lit Sprite.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Lit Sprite.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Walls.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Walls.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Bow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Bow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/CameraMatrix.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/CameraMatrix.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/CustomStandard.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/CustomStandard.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/DoubleSided.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UnityStandardCore.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UnityStandardCore.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UnityStandardCoreForward.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UnityStandardCoreForward.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UnityStandardShadow.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Weapons/spark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Weapons/spark.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Interactables.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Interactables.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Test.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Test.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Folder.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Torch/Sconce.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Torch/Sconce.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Torch/torchflame.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Torch/torchflame.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +118,7 @@
       <workItem from="1600989058329" duration="250000" />
       <workItem from="1600996925934" duration="219000" />
       <workItem from="1601132698271" duration="8394000" />
+      <workItem from="1601175580918" duration="226000" />
     </task>
     <servers />
   </component>

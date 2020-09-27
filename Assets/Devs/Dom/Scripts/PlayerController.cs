@@ -11,7 +11,7 @@ Controls the player input and moves character on screen
 public class PlayerController : MonoBehaviour
 {
     public Animator animator;    // Where to send animation data to
-    public float _moveSpeed = 5f;    // How fast player will move
+    public float moveSpeed = 5f;    // How fast player will move
 
     [SerializeField]
     public Weapon[] weapons = new Weapon[8];
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 _moveVector;
     private float _speedMod = 1f;
 
-    private int _currentWeapon = 0;
+    public int currentWeapon = 0;
 
     private void Awake()
     {
@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         _moveVector.x = Input.GetAxis("Horizontal");
         _moveVector.z = Input.GetAxis("Vertical");
 
-        if (_currentWeapon != 0)
+        if (currentWeapon != 0)
         {
             //_facingDirectionRaw.x = Input.GetAxis("HorizontalLook");
             //_facingDirectionRaw.z = Input.GetAxis("VerticalLook");
@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Update the character controller to perform the move
-        _characterController.SimpleMove(_moveVector * _moveSpeed);
+        _characterController.SimpleMove(_moveVector * moveSpeed);
         transform.forward = facingDirection;
 
 
@@ -106,11 +106,11 @@ public class PlayerController : MonoBehaviour
         }
         else if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            weapons[_currentWeapon]?.OnWeaponDown();
+            weapons[currentWeapon]?.OnWeaponDown();
         }
         else if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            weapons[_currentWeapon]?.OnWeaponRelease();
+            weapons[currentWeapon]?.OnWeaponRelease();
         }
         
         // Send animator the movement data for visuals
@@ -120,8 +120,8 @@ public class PlayerController : MonoBehaviour
     private void EquipWeapon(int weaponSlot)
     {
         UnequipAllWeapons();
-        _currentWeapon = weaponSlot;
-        weapons[_currentWeapon]?.gameObject.SetActive(true);
+        currentWeapon = weaponSlot;
+        weapons[currentWeapon]?.gameObject.SetActive(true);
     }
 
     private void UnequipAllWeapons()
@@ -131,7 +131,7 @@ public class PlayerController : MonoBehaviour
             weapons[i]?.gameObject.SetActive(false);
         }
 
-        _currentWeapon = 0;
+        currentWeapon = 0;
     }
     
     private void UseObjects()
