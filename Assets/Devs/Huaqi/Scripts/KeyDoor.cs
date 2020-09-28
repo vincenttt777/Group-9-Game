@@ -35,7 +35,7 @@ public class KeyDoor : MonoBehaviour
         {
             if (Key.have_key == true)
             {
-                GUI.Box(new Rect(0, 60, 200, 25), "Press E top open the door");
+                GUI.Box(new Rect(0, 60, 200, 25), "Press E to open the door");
             }
             else
             {
