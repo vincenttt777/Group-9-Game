@@ -8,7 +8,7 @@
 // will always has a component. GetComponent<Light>() will never throw a null error in code
 [RequireComponent(typeof(Light))]
 
-public class LightSource : MonoBehaviour, Interactable
+public class LightSource : MonoBehaviour, Useable
 {
     // Boolean for the state of the light, public so it can be set in inspector
     public bool lightActive = false;
@@ -38,7 +38,17 @@ public class LightSource : MonoBehaviour, Interactable
         SetLightActive(lightActive); // Set the light's new state
     }
 
-    
+    public void OnSelect()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnDeselect()
+    {
+        throw new System.NotImplementedException();
+    }
+
+
     private void SetLightActive(bool active)
     {
         // Set the unity light source

@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System;
+using System.Security.Cryptography;
 using UnityEngine;
 
 /*
@@ -27,9 +28,29 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
+        _mainCamera = Game.GetMainCamera();
     }
 
-    
+    private Camera _mainCamera;
+
+
+    private void FixedUpdate()
+    {
+        HandleObjectSelection();
+    }
+
+    private void HandleObjectSelection()
+    {
+        _selectedObject = GetSelectedObjects();
+        
+        if (_lastSelectedObject != _selectedObject)
+        {
+            _lastSelectedObject?.OnDeselect();
+            _lastSelectedObject = _selectedObject;
+        }
+        _selectedObject?.OnSelect();
+    }
+
     private void LateUpdate()
     {
         // Get player input data
@@ -40,9 +61,20 @@ public class PlayerController : MonoBehaviour
         {
             //_facingDirectionRaw.x = Input.GetAxis("HorizontalLook");
             //_facingDirectionRaw.z = Input.GetAxis("VerticalLook");
-
-            _facingDirectionRaw.x = ((Input.mousePosition.x - (Screen.width * 0.5f)) / Screen.width);
-            _facingDirectionRaw.z= ((Input.mousePosition.y - (Screen.height * 0.5f)) / Screen.height);
+            Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            
+            if (Physics.Raycast(ray, out hit))
+            {
+                Vector3 dir = (hit.point - transform.position).normalized;
+                _facingDirectionRaw.x = dir.x;
+                _facingDirectionRaw.z = dir.z;
+            }
+            else
+            {
+                _facingDirectionRaw.x = ((Input.mousePosition.x - (Screen.width * 0.5f)) / Screen.width);
+                _facingDirectionRaw.z = ((Input.mousePosition.y - (Screen.height * 0.5f)) / Screen.height);
+            }
         }
         else
         {
@@ -97,12 +129,14 @@ public class PlayerController : MonoBehaviour
 
         // Update the character controller to perform the move
         _characterController.SimpleMove(_moveVector * moveSpeed);
-        transform.forward = facingDirection;
+        
+        transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(facingDirection),
+            Time.deltaTime * 55f);
 
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            UseObjects();
+            _selectedObject?.OnUse();
         }
         else if(Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -133,19 +167,23 @@ public class PlayerController : MonoBehaviour
 
         currentWeapon = 0;
     }
-    
-    private void UseObjects()
+
+    private Useable GetSelectedObjects()
     {
         var selectedObjects = Physics.SphereCastAll(transform.position + facingDirection * 0.2f, 0.35f, facingDirection, 0.5f);
         foreach (var hit in selectedObjects)
         {
-            if (hit.transform.gameObject.GetComponent<Interactable>() != null)
+            if(hit.transform.GetComponent<Useable>() != null)
             {
-                hit.transform.gameObject.GetComponent<Interactable>().OnUse();
-                break;
+                return hit.transform.GetComponent<Useable>();
             }
         }
+
+        return null;
     }
+
+    private Useable _selectedObject;
+    private Useable _lastSelectedObject;
 
     
     private void UpdateAnimator()

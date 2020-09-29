@@ -30,6 +30,8 @@ public class Sword : Weapon
         Attack();
     }
 
+    public int attackPower = 3;
+
     void Attack()
     {
         Vector3 facingDirection = GameObject.FindObjectOfType<PlayerController>().facingDirection;
@@ -39,10 +41,10 @@ public class Sword : Weapon
         var selectedObjects = Physics.SphereCastAll(transform.position + facingDirection * 0.1f, 0.35f, facingDirection, 0.2f);
         foreach (var hit in selectedObjects)
         {
-            if (hit.transform.gameObject.GetComponent<Interactable>() != null)
+            if (hit.transform.gameObject.GetComponent<Damageable>() != null)
             {
                 collision = true;
-                hit.transform.gameObject.GetComponent<Interactable>().OnUse();
+                hit.transform.gameObject.GetComponent<Damageable>().OnDamaged(attackPower);
                 break;
             }
         }

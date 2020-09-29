@@ -24,9 +24,9 @@ public class Projectile : MonoBehaviour
             Instantiate(destroyPrefab, transform.position + transform.forward * 0.6f, Quaternion.identity);
         }
 
-        if (other.gameObject.GetComponent<Interactable>() != null)
+        if (other.gameObject.GetComponent<Useable>() != null)
         {
-            other.gameObject.GetComponent<Interactable>().OnUse();
+            other.gameObject.GetComponent<Useable>().OnUse();
         }
         
         Destroy(gameObject);

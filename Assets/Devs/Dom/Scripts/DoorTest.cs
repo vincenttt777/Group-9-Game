@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorTest : MonoBehaviour, Interactable
+public class DoorTest : MonoBehaviour, Useable
 {
     public bool open = false;
     public float doorSpeed = 2f;
@@ -18,6 +18,16 @@ public class DoorTest : MonoBehaviour, Interactable
     public void OnUse()
     {
         open = !open;
+    }
+
+    public void OnSelect()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void OnDeselect()
+    {
+        throw new NotImplementedException();
     }
 
     private void Update()
