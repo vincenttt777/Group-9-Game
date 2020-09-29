@@ -12,7 +12,7 @@ public class CubeTrainingDummy : MonoBehaviour, Damageable
 {
     
     public int health = 10;
-    public GameObject[] deathEffects;
+    public GameObject[] spawnOnDeath;
     
     private Color _origColor; // variable to store / restore the object's original color
     private Transform _playerTransform;
@@ -49,7 +49,7 @@ public class CubeTrainingDummy : MonoBehaviour, Damageable
 
     private void Die()
     {
-        foreach (var obj in deathEffects)
+        foreach (var obj in spawnOnDeath)
         {
             Instantiate(obj, transform.position, Quaternion.LookRotation(Vector3.up), null);
         }

@@ -20,20 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Damaging Objects.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Damaging Objects.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Arrow_Broadhead.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Arrow_Broadhead.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects/PixelExplosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects/PixelExplosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Baby Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Baby Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Daddy Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Daddy Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Momma Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Momma Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PostProcessing.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PostProcessing.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +159,7 @@
       <workItem from="1601175580918" duration="602000" />
       <workItem from="1601214823598" duration="301000" />
       <workItem from="1601386207304" duration="5286000" />
-      <workItem from="1601403251327" duration="2240000" />
+      <workItem from="1601403251327" duration="2664000" />
     </task>
     <servers />
   </component>
