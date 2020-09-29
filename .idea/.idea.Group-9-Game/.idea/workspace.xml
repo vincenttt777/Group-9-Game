@@ -34,6 +34,7 @@
       <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" afterDir="false" />
@@ -159,7 +160,7 @@
       <workItem from="1601175580918" duration="602000" />
       <workItem from="1601214823598" duration="301000" />
       <workItem from="1601386207304" duration="5286000" />
-      <workItem from="1601403251327" duration="2664000" />
+      <workItem from="1601403251327" duration="2815000" />
     </task>
     <servers />
   </component>
