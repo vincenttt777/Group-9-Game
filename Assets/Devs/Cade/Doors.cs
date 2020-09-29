@@ -5,24 +5,24 @@ using UnityEngine;
 public class Doors : MonoBehaviour
 {
     Animator animator;
-    bool doorOpen;
+    //bool doorOpen;
 
     void Start(){
-        doorOpen = false;
+        //doorOpen = false;
         animator = GetComponent<Animator>();
 
     }    
 
     void OnTriggerEnter(Collider col){
         if(col.gameObject.tag == "Player"){
-            doorOpen = true;
+            //doorOpen = true;
             DoorControl("Open");
         }
     }
 
     void OnTriggerExit(Collider col){
         if(col.gameObject.tag == "Player"){
-            doorOpen = false;
+            //doorOpen = false;
             DoorControl("Close");
         }
     }

@@ -38,13 +38,12 @@ public class Sword : Weapon
 
         bool collision = false;
         
-        var selectedObjects = Physics.SphereCastAll(transform.position + facingDirection * 0.1f, 0.35f, facingDirection, 0.2f);
+        var selectedObjects = Physics.SphereCastAll(transform.position + facingDirection * 0.1f, 0.5f, facingDirection, 0.5f);
         foreach (var hit in selectedObjects)
         {
-            if (hit.transform.gameObject.GetComponent<Damageable>() != null)
+            if (Game.DamageObject(hit.transform.gameObject, attackPower))
             {
                 collision = true;
-                hit.transform.gameObject.GetComponent<Damageable>().OnDamaged(attackPower);
                 break;
             }
         }

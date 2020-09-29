@@ -55,6 +55,7 @@ public class PlayerController : MonoBehaviour
     {
         // Get player input data
         _moveVector.x = Input.GetAxis("Horizontal");
+        _moveVector.x = Input.GetAxis("Horizontal");
         _moveVector.z = Input.GetAxis("Vertical");
 
         if (currentWeapon != 0)

@@ -59,6 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fbf0ae513066401586c4c4f09aa5355, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 3
   speed: 15
   destroyPrefab: {fileID: 5336872344730798924, guid: 2635a8c794ef54914807bf0d38464130,
     type: 3}

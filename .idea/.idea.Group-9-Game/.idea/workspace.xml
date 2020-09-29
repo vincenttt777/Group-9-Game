@@ -20,243 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Animation/DoorClose.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Animation/DoorClose.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Animation/DoorIdle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Animation/DoorIdle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Animation/DoorOpen.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Animation/DoorOpen.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Scenes/AutomaticDoor.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Scenes/AutomaticDoor.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Materials/Walls.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Materials/Walls.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/BlankTestSceneBackup.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/BlankTestSceneBackup.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/DoorTest.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/DoorTest.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Interactables.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Interactables.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsTesting.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsTesting.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/New Material 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/New Material 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/New Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/New Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scenes/Test.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scenes/Test.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/Key.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/Key.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/KeyDoor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scripts/KeyDoor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/Using Objects.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/Using Objects.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UniversalRenderPipelineAsset.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UniversalRenderPipelineAsset.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/UniversalRenderPipelineAsset_Renderer.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Sprite Cutout.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Sprite Cutout.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Dungeon.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Dungeon.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Game Camera.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Game Camera.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Damaging Objects.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Damaging Objects.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/DoorClose.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/DoorClose.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/DoorIdle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/DoorIdle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/DoorOpen.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/DoorOpen.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Resources/AutoLight.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Resources/AutoLight.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Lit Sprite.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Lit Sprite.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Test.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Test.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Walls.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Walls.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DoorTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DoorTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interactable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interactable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Arrow_Broadhead.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Arrow_Broadhead.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/CustomStandard.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/CustomStandard.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/DoubleSided.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/DoubleSided.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Includes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Includes/lighting.hlsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Includes/lighting.hlsl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_2Step.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_2Step.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step_Dark.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Textures/LightingRamp_3Step_Dark.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Materials/New Material 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Materials/New Material 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Materials/New Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Materials/New Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scenes/Test.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scenes/Test.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scripts/Key.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scripts/Key.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scripts/KeyDoor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Huaqi/Scripts/KeyDoor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Materials/Gun.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Materials/Gun.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Materials/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doors.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doors.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Doors.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Door.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Door.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightOff.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightOff.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightOn.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightOn.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Walls.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Walls.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnityStandardCore.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnityStandardCore.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnityStandardCoreForward.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnityStandardCoreForward.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnityStandardShadow.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnityStandardShadow.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ControlsTesting.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ControlsTesting.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoorTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DoorTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Interactables.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WeaponsTesting.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WeaponsTesting.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_E.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_E.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_N.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_N.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_S.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_S.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_W.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Idle_W.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Moogle.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Moogle.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_E.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_E.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_N.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_N.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_S.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_S.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_W.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Animations/Walk_W.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Moogle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Moogle/Moogle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Torch.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Torch/Sconce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Torch/Sconce.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Torch/torchflame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Torch/torchflame.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Weapons/Sword.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Weapons/Sword/swords.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Weapons/Sword/swords.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Weapons/spark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Weapons/spark.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,18 +77,23 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Guns.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DoorTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeSpinner1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/DamagedExample.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTestDummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" />
       </list>
     </option>
   </component>
@@ -369,6 +151,7 @@
       <workItem from="1601175580918" duration="602000" />
       <workItem from="1601214823598" duration="301000" />
       <workItem from="1601386207304" duration="5286000" />
+      <workItem from="1601403251327" duration="2240000" />
     </task>
     <servers />
   </component>
