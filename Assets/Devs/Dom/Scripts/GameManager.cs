@@ -50,24 +50,6 @@ public class GameManager : MonoBehaviour
         set => _coinCount = Mathf.Clamp(value, 0, int.MaxValue);
     }
 
-    [SerializeField] private int _playerHealth = 50;
-    public int PlayerHealth
-    {
-        get => _playerHealth;
-        set => _playerHealth = Mathf.Clamp(value, 0, int.MaxValue);
-    }
-    
-    [SerializeField] private int _playerMaxHealth = 50;
-    public int PlayerMaxHealth
-    {
-        get => _playerMaxHealth;
-        set
-        {
-            _playerMaxHealth = Mathf.Clamp(value, 1, int.MaxValue);
-            _playerHealth = Mathf.Clamp(value, 0, _playerMaxHealth);
-        }
-    }
-
     private void Awake ()
     {
         if (Instance != null)

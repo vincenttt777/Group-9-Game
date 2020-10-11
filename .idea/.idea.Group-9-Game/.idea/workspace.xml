@@ -20,29 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects/PixelExplosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects/PixelExplosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/HeartDisplay.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/HeartDisplay.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Poison Cloud.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Poison Cloud.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/LightTest.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/LightTest.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/TestTargets.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/TestTargets.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Traps.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Traps.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Baby Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Baby Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Daddy Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Daddy Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Momma Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Momma Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PostProcessing.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PostProcessing.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT) 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT) 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Lit Sprite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Lit Sprite.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/PostProcessing Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PostProcessing Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Sprite Cutout.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Sprite Cutout.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +62,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,13 +101,11 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Guns.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DoorTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeSpinner1.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
@@ -101,8 +113,16 @@
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/DamagedExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTestDummy.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/TrainingDummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +181,10 @@
       <workItem from="1601214823598" duration="301000" />
       <workItem from="1601386207304" duration="5286000" />
       <workItem from="1601403251327" duration="2815000" />
+      <workItem from="1601476510323" duration="1512000" />
+      <workItem from="1601943209701" duration="2638000" />
+      <workItem from="1601990053239" duration="1165000" />
+      <workItem from="1602378096606" duration="2369000" />
     </task>
     <servers />
   </component>
@@ -187,9 +211,13 @@
       <screen x="-2560" y="-182" width="2560" height="1350" />
     </state>
     <state x="-1716" y="264" key="Rider.ProjectTemplateDialog.Size/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1600974949455" />
-    <state x="-1301" y="229" key="RiderGenerateDialog" timestamp="1601399980774">
+    <state x="-1301" y="229" key="RiderGenerateDialog" timestamp="1601945504535">
       <screen x="-2560" y="-182" width="2560" height="1350" />
     </state>
-    <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601399980774" />
+    <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601945504535" />
+    <state x="-1433" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1601943493228">
+      <screen x="-2560" y="-182" width="2560" height="1350" />
+    </state>
+    <state x="-1433" y="153" width="670" height="676" key="search.everywhere.popup/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601943493228" />
   </component>
 </project>

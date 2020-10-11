@@ -7,18 +7,25 @@
       <e p="Assets" t="Include">
         <e p="Devs" t="Include">
           <e p="Cade" t="Include">
+            <e p="Chest.cs" t="Include" />
             <e p="Doors.cs" t="Include" />
+            <e p="StoneWalls" t="Include">
+              <e p="readme.txt" t="Include" />
+            </e>
           </e>
           <e p="Dom" t="Include">
             <e p="Scripts" t="Include">
               <e p="Arrow.cs" t="Include" />
               <e p="Billboard.cs" t="Include" />
               <e p="Bow.cs" t="Include" />
+              <e p="CameraController.cs" t="Include" />
               <e p="CameraMatrix.cs" t="Include" />
               <e p="ColorChangePad.cs" t="Include" />
               <e p="ColorChanger.cs" t="Include" />
+              <e p="DamageTester.cs" t="Include" />
               <e p="DestroyAfterSeconds.cs" t="Include" />
               <e p="DoorTest.cs" t="Include" />
+              <e p="Entity.cs" t="Include" />
               <e p="GameCamera.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
               <e p="Helpers" t="Include">
@@ -29,9 +36,13 @@
                 <e p="Interactable.cs" t="Include" />
               </e>
               <e p="LightSource.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
               <e p="PlayerController.cs" t="Include" />
+              <e p="PlayerHealthDisplay.cs" t="Include" />
               <e p="Projectile.cs" t="Include" />
               <e p="Sword.cs" t="Include" />
+              <e p="TestingLights.cs" t="Include" />
+              <e p="TestTrigger.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
             </e>
           </e>
@@ -49,7 +60,7 @@
           </e>
         </e>
         <e p="Example Scenes" t="Include">
-          <e p="Damaging Objects" t="Include">
+          <e p="Damageable Objects" t="Include">
             <e p="CubeTrainingDummy.cs" t="Include" />
           </e>
           <e p="Using Objects" t="Include">

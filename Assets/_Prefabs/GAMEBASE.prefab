@@ -50,8 +50,6 @@ MonoBehaviour:
   _gameCamera: {fileID: 5329400317373006844}
   _keyCount: 0
   _coinCount: 0
-  _playerHealth: 50
-  _playerMaxHealth: 50
 --- !u!1001 &4297673451601527835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -169,10 +167,45 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8237561325881727497, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8237561325881727508, guid: 205e87934158c4dd49fcd5eacb3dd86a,
         type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237561325881727510, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+        type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237561325881727510, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+        type: 3}
+      propertyPath: m_ScaleFactor
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237561327076595856, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237561327076595856, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237561327076595856, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237561327076595857, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8237561327076595870, guid: 205e87934158c4dd49fcd5eacb3dd86a,
         type: 3}
@@ -187,6 +220,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 4297673451601527835}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1623857445583677455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3255397218352720916, guid: 205e87934158c4dd49fcd5eacb3dd86a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4297673451601527835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10149f236f9fd4577a693fe1e9156f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6183100614033145295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -336,6 +381,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5882192698509648782, guid: 74b90512fd46246b1b32ef4ef09466ff,
+        type: 3}
+      propertyPath: healthDisplay
+      value: 
+      objectReference: {fileID: 1623857445583677455}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74b90512fd46246b1b32ef4ef09466ff, type: 3}
 --- !u!4 &5329400317781180339 stripped
