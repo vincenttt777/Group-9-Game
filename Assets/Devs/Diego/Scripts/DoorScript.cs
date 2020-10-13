@@ -9,19 +9,29 @@ public class DoorScript : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
         if(other.tag == "Player")
         {
-            Input.GetKeyDown(KeyCode.E);
-            anim.SetTrigger("door");   
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                anim.SetTrigger("door");
+            }
         }
     }
-    void OnTriggerExit(Collider other)
+    /*void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
         {
-            anim.SetTrigger("close");
+            anim.SetTrigger("door");
         }
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            anim.SetTrigger("door");
+        }
+    }
+    */
 }
