@@ -20,38 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/HeartDisplay.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/HeartDisplay.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Poison Cloud.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Poison Cloud.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/LightTest.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/LightTest.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/TestTargets.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/TestTargets.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Traps.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/Traps.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT) 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT) 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Lit Sprite.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Lit Sprite.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PostProcessing Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PostProcessing Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Sprite Cutout.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Sprite Cutout.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Animation/Door2Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Animation/Door2Open.anim" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +31,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -185,6 +154,7 @@
       <workItem from="1601943209701" duration="2638000" />
       <workItem from="1601990053239" duration="1165000" />
       <workItem from="1602378096606" duration="2369000" />
+      <workItem from="1602596086213" duration="364000" />
     </task>
     <servers />
   </component>
