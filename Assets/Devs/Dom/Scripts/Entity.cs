@@ -28,6 +28,11 @@ public class Entity : MonoBehaviour, Damageable
         }
     }
 
+    public virtual void SetMaxHealth(int newMax)
+    {
+        MaxHealth = newMax;
+    }
+
     private void Awake()
     {
         MaxHealth = _maxHealth;

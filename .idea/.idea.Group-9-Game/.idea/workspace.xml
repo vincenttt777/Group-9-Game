@@ -20,7 +20,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Animation/Door2Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Animation/Door2Open.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT).unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/HeartContainer.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/HeartContainer.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Materials/Floor_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Materials/Floor_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Materials/SimpleDoor_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Materials/SimpleDoor_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models/Materials/SimpleDoor_SimpleDoor_MainDoor_LOD0SG1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models/Materials/SimpleDoor_SimpleDoor_MainDoor_LOD0SG1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models/Materials/SimpleDoor_SimpleDoor_MainDoor_LOD2SG1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models/Materials/SimpleDoor_SimpleDoor_MainDoor_LOD2SG1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models/Simple_Door.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Models/Simple_Door.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Prefabs/Aparment_Door.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Prefabs/Aparment_Door.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Prefabs/FPS_Controller.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Prefabs/FPS_Controller.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Read me.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Read me.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scenes/Simple_Door.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scenes/Simple_Door.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scripts/DoorController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scripts/DoorController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scripts/KeyController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scripts/KeyController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scripts/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Scripts/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Apartment_Door/Textures/SimpleDoor/Simple Door LOD0_LOD0_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT) 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Blank Test Scene (DONT EDIT) 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Door.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Door.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +87,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,9 +145,10 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +212,7 @@
       <workItem from="1601990053239" duration="1165000" />
       <workItem from="1602378096606" duration="2369000" />
       <workItem from="1602596086213" duration="364000" />
+      <workItem from="1603718974460" duration="892000" />
     </task>
     <servers />
   </component>
