@@ -57,8 +57,9 @@ public class Sword : Weapon
         
         foreach (var hit in selectedObjects)
         {
-            if (Game.DamageObject(hit.transform.gameObject, attackPower))
+            if (hit.transform != Game.GetPlayerTransform() && Game.DamageObject(hit.transform.gameObject, attackPower))
             {
+                Debug.Log(hit.transform);
                 collision = true;
                 break;
             }

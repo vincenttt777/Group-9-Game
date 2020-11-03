@@ -11,6 +11,7 @@
             <e p="Doors.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="Pickup.cs" t="Include" />
+            <e p="Slot.cs" t="Include" />
             <e p="StoneWalls" t="Include">
               <e p="readme.txt" t="Include" />
             </e>
@@ -54,9 +55,11 @@
                 <e p="Interactable.cs" t="Include" />
               </e>
               <e p="LightSource.cs" t="Include" />
+              <e p="LoadLevelTrigger.cs" t="Include" />
               <e p="Player.cs" t="Include" />
               <e p="PlayerController.cs" t="Include" />
               <e p="PlayerHealthDisplay.cs" t="Include" />
+              <e p="PlayerSpawnPoint.cs" t="Include" />
               <e p="Projectile.cs" t="Include" />
               <e p="Sword.cs" t="Include" />
               <e p="TestingLights.cs" t="Include" />
