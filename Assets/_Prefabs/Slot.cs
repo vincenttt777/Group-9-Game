@@ -5,13 +5,12 @@ using UnityEngine;
 public class Slot : MonoBehaviour
 {
    public void DropItem(){
-       foreach (Transform child in transform ){
-           GameObject.Destroy(child.gameObject);
-       }
+        GameObject.Destroy(gameObject);
    }
-/*
+
    public void potionClick(){
+       Debug.Log("test");
        Game.GetPlayerTransform().GetComponent<Player>().Health += 1; 
    }
-   */
+   
 }
