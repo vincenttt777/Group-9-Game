@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 
     public int currentWeapon = 0;
 
+    public bool canControl = false;
+
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
@@ -36,11 +38,15 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!canControl) return;
+        
         HandleObjectSelection();
     }
 
     private void HandleObjectSelection()
     {
+        if (!canControl) return;
+        
         _selectedObject = GetSelectedObjects();
         
         if (_lastSelectedObject != _selectedObject)
@@ -53,6 +59,8 @@ public class PlayerController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (!canControl) return;
+        
         // Get player input data
         _moveVector.x = Input.GetAxis("Horizontal");
         _moveVector.x = Input.GetAxis("Horizontal");
@@ -186,6 +194,14 @@ public class PlayerController : MonoBehaviour
     private Useable _selectedObject;
     private Useable _lastSelectedObject;
 
+    public void SetPosition(Vector3 position)
+    {
+        transform.position = position;
+        if (Game.GetMainCamera())
+        {
+            Game.GetMainCamera().GetComponent<GameCamera>().SnapToPosition();
+        }
+    }
     
     private void UpdateAnimator()
     {

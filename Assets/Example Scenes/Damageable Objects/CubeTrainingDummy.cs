@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using DG.Tweening;
 
 /*
@@ -31,7 +32,15 @@ public class CubeTrainingDummy : MonoBehaviour, Damageable
     {
         transform.LookAt(_playerTransform);
     }
-    
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform == Game.GetPlayerTransform())
+        {
+            Game.DamageObject(other.gameObject, 1);
+        }
+    }
+
     public void OnDamaged(int damage)
     {
         health -= damage;

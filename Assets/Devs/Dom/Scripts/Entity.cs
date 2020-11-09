@@ -9,8 +9,8 @@ public class Entity : MonoBehaviour, Damageable
 {
     
     // The entity's current health
-    [SerializeField] private int _health = 6;
-    public int Health
+    [SerializeField] protected int _health = 6;
+    public virtual int Health
     {
         get => _health;
         set => _health = Mathf.Clamp(value, 0, MaxHealth); // Clamp value between zero and max health
