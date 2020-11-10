@@ -319,6 +319,7 @@ GameObject:
   - component: {fileID: 4214319708379755940}
   - component: {fileID: 4214319708379755963}
   - component: {fileID: 5882192698509648782}
+  - component: {fileID: 5005342977102466239}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -385,6 +386,7 @@ MonoBehaviour:
   - {fileID: 0}
   facingDirection: {x: 0, y: 0, z: -1}
   currentWeapon: 0
+  canControl: 0
 --- !u!114 &5882192698509648782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,6 +402,26 @@ MonoBehaviour:
   _health: 3
   _maxHealth: 3
   healthDisplay: {fileID: 0}
+  invulnerable: 0
+--- !u!114 &5005342977102466239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214319708379755941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610ef0818e8d54d42a2b04b7d102bc34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFull: 
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &4214319708409427869
 GameObject:
   m_ObjectHideFlags: 0

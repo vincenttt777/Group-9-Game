@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 /*
@@ -37,6 +38,24 @@ public class Entity : MonoBehaviour, Damageable
     {
         MaxHealth = _maxHealth;
         Health = _health;
+
+    }
+
+    private float timer;
+    public float speedChangeDuration = 2f;
+    private bool speedPotionActivated = false;
+    
+    public void Update()
+    {
+        if (speedPotionActivated)
+        {
+            timer += Time.deltaTime;
+
+            if (timer > speedChangeDuration)
+            {
+                speedPotionActivated = false;
+            }
+        }
     }
 
     // Called whenever entity is damaged
@@ -44,4 +63,5 @@ public class Entity : MonoBehaviour, Damageable
     {
         Health -= damage;
     }
+
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Security.Cryptography;
 using UnityEngine;
 
@@ -57,6 +58,21 @@ public class PlayerController : MonoBehaviour
         _selectedObject?.OnSelect();
     }
 
+    private float _addedSpeedMod = 1f;
+
+    public void SetPlayerSpeedFactor(float amount, float duration)
+    {
+        _addedSpeedMod = amount;
+        StopAllCoroutines();
+        StartCoroutine(ReturnSpeedToNormal(duration));
+    }
+
+    IEnumerator ReturnSpeedToNormal(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        _addedSpeedMod = 1f;
+    }
+
     private void LateUpdate()
     {
         if (!canControl) return;
@@ -94,6 +110,7 @@ public class PlayerController : MonoBehaviour
         
         // Prevent movement from exceeding a factor of 1, useful for diagonals.
         _moveVector = Vector3.ClampMagnitude(_moveVector, _speedMod);
+        _moveVector *= _addedSpeedMod;
 
         // If moving, change the facing direction
         if (_facingDirectionRaw != Vector3.zero)

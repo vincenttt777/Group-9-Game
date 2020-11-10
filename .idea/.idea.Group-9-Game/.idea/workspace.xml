@@ -20,38 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Fonts/RomanAntique SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Fonts/RomanAntique SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Fonts/RomanAntique.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Fonts/RomanAntique.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/PlayerSpawnPoint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/PlayerSpawnPoint.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/StairwellToNextLevel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/StairwellToNextLevel.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_StartScreen.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_StartScreen.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/CubeTrainingDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/CubeTrainingDummy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/Damaging Objects.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/Damaging Objects.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/Using Objects.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/Using Objects.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PostProcessing Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/PostProcessing Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/ScriptableObjects/States.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Sprites/Effect01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Sprites/Weapon/ALL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +40,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -120,15 +98,15 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/CubeTrainingDummy.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -195,7 +173,8 @@
       <workItem from="1603718974460" duration="1089000" />
       <workItem from="1603750747322" duration="786000" />
       <workItem from="1604355899438" duration="547000" />
-      <workItem from="1604415569382" duration="6131000" />
+      <workItem from="1604415569382" duration="6360000" />
+      <workItem from="1604968063607" duration="713000" />
     </task>
     <servers />
   </component>
