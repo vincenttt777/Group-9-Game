@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/ScriptableObjects/States.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Sprites/Effect01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Sprites/Weapon/ALL.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +78,6 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DoorTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeSpinner1.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/DamagedExample.cs" />
@@ -98,15 +90,17 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/CubeTrainingDummy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/LightScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
       </list>
     </option>
   </component>
@@ -174,7 +168,7 @@
       <workItem from="1603750747322" duration="786000" />
       <workItem from="1604355899438" duration="547000" />
       <workItem from="1604415569382" duration="6360000" />
-      <workItem from="1604968063607" duration="713000" />
+      <workItem from="1604968063607" duration="1249000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 public class Player : Entity
@@ -7,11 +8,25 @@ public class Player : Entity
 
     public bool invulnerable = false;
 
+    public void SetInvulnerable(float duration)
+    {
+        StartCoroutine(DoInvulnerable(duration));
+    }
+
+    IEnumerator DoInvulnerable(float duration)
+    {
+        invulnerable = true;
+        yield return new WaitForSeconds(duration);
+        invulnerable = false;
+    }
+    
     public override int Health
     {
         get => _health;
         set
         {
+            if (invulnerable && value < _health) return;
+            
             _health = Mathf.Clamp(value, 0, MaxHealth); // Clamp value between zero and max health
             healthDisplay.SetDisplay(Health, MaxHealth);
             

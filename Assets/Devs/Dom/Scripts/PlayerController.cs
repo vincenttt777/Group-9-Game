@@ -67,6 +67,11 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(ReturnSpeedToNormal(duration));
     }
 
+    public void SetPlayerInvulnerability(float duration)
+    {
+        GetComponent<Player>().SetInvulnerable(duration);
+    }
+
     IEnumerator ReturnSpeedToNormal(float duration)
     {
         yield return new WaitForSeconds(duration);
