@@ -5,15 +5,13 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="_Prefabs" t="Include">
-          <e p="Slot.cs" t="Include" />
-        </e>
         <e p="Devs" t="Include">
           <e p="Cade" t="Include">
             <e p="Chest.cs" t="Include" />
             <e p="Doors.cs" t="Include" />
             <e p="Inventory.cs" t="Include" />
             <e p="Pickup.cs" t="Include" />
+            <e p="Slot.cs" t="Include" />
             <e p="StoneWalls" t="Include">
               <e p="readme.txt" t="Include" />
             </e>
@@ -63,10 +61,13 @@
               <e p="PlayerHealthDisplay.cs" t="Include" />
               <e p="PlayerSpawnPoint.cs" t="Include" />
               <e p="Projectile.cs" t="Include" />
+              <e p="Spear.cs" t="Include" />
               <e p="Sword.cs" t="Include" />
               <e p="TestingLights.cs" t="Include" />
               <e p="TestTrigger.cs" t="Include" />
+              <e p="Wand.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
+              <e p="WeaponPickUp.cs" t="Include" />
             </e>
           </e>
           <e p="Ellen" t="Include">
@@ -99,11 +100,14 @@
               <e p="Ice.cs" t="Include" />
               <e p="Key.cs" t="Include" />
               <e p="KeyDoor.cs" t="Include" />
+              <e p="Keys.cs" t="Include" />
               <e p="PlayerDamaged.cs" t="Include" />
               <e p="Poisongas.cs" t="Include" />
+              <e p="potion.cs" t="Include" />
               <e p="Shaker.cs" t="Include" />
               <e p="Spike.cs" t="Include" />
               <e p="WallSpike.cs" t="Include" />
+              <e p="Weapons.cs" t="Include" />
             </e>
           </e>
           <e p="Zihao" t="Include">

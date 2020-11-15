@@ -41,23 +41,6 @@ public class Entity : MonoBehaviour, Damageable
 
     }
 
-    private float timer;
-    public float speedChangeDuration = 2f;
-    private bool speedPotionActivated = false;
-    
-    public void Update()
-    {
-        if (speedPotionActivated)
-        {
-            timer += Time.deltaTime;
-
-            if (timer > speedChangeDuration)
-            {
-                speedPotionActivated = false;
-            }
-        }
-    }
-
     // Called whenever entity is damaged
     public virtual void OnDamaged(int damage)
     {

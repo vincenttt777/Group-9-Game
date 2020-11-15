@@ -13,10 +13,8 @@ Controls the player input and moves character on screen
 public class PlayerController : MonoBehaviour
 {
     public Animator animator;    // Where to send animation data to
-    public float moveSpeed = 5f;    // How fast player will move
-
-    [SerializeField]
-    public Weapon[] weapons = new Weapon[8];
+    public float moveSpeed = 4f;    // How fast player will move
+    public bool canControl = false;
     
     private CharacterController _characterController;
     public Vector3 facingDirection = Vector3.back;
@@ -24,9 +22,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 _moveVector;
     private float _speedMod = 1f;
 
+    public Weapon[] weapons = new Weapon[10];
     public int currentWeapon = 0;
-
-    public bool canControl = false;
 
     private void Awake()
     {
@@ -84,31 +81,21 @@ public class PlayerController : MonoBehaviour
         
         // Get player input data
         _moveVector.x = Input.GetAxis("Horizontal");
-        _moveVector.x = Input.GetAxis("Horizontal");
         _moveVector.z = Input.GetAxis("Vertical");
 
-        if (currentWeapon != 0)
+        Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        
+        if (Physics.Raycast(ray, out hit))
         {
-            //_facingDirectionRaw.x = Input.GetAxis("HorizontalLook");
-            //_facingDirectionRaw.z = Input.GetAxis("VerticalLook");
-            Ray ray = _mainCamera.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            
-            if (Physics.Raycast(ray, out hit))
-            {
-                Vector3 dir = (hit.point - transform.position).normalized;
-                _facingDirectionRaw.x = dir.x;
-                _facingDirectionRaw.z = dir.z;
-            }
-            else
-            {
-                _facingDirectionRaw.x = ((Input.mousePosition.x - (Screen.width * 0.5f)) / Screen.width);
-                _facingDirectionRaw.z = ((Input.mousePosition.y - (Screen.height * 0.5f)) / Screen.height);
-            }
+            Vector3 dir = (hit.point - transform.position).normalized;
+            _facingDirectionRaw.x = dir.x;
+            _facingDirectionRaw.z = dir.z;
         }
         else
         {
-            _facingDirectionRaw = _moveVector;
+            _facingDirectionRaw.x = ((Input.mousePosition.x - (Screen.width * 0.5f)) / Screen.width);
+            _facingDirectionRaw.z = ((Input.mousePosition.y - (Screen.height * 0.5f)) / Screen.height);
         }
 
         _speedMod = Input.GetKey(KeyCode.LeftShift) ?  0.5f : 1f;
@@ -129,41 +116,12 @@ public class PlayerController : MonoBehaviour
             _speedMod *= 0.5f;
         }
         
-        if(Input.GetKeyDown(KeyCode.Tilde) || Input.GetKeyDown(KeyCode.BackQuote))
-        {
-            EquipWeapon(0);
-        }
-        else if(Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            EquipWeapon(1);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            EquipWeapon(2);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            EquipWeapon(3);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            EquipWeapon(4);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha5))
-        {
-            EquipWeapon(5);
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha6))
-        {
-            EquipWeapon(6);
-        }
 
         // Update the character controller to perform the move
         _characterController.SimpleMove(_moveVector * moveSpeed);
         
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(facingDirection),
             Time.deltaTime * 55f);
-
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -182,22 +140,18 @@ public class PlayerController : MonoBehaviour
         UpdateAnimator();
     }
 
-    private void EquipWeapon(int weaponSlot)
+    public void EquipWeapon(int weaponID)
     {
-        UnequipAllWeapons();
-        currentWeapon = weaponSlot;
+        weapons[currentWeapon]?.gameObject.SetActive(false);
+        if (weapons[currentWeapon] && weapons[currentWeapon].pickupObject)
+        {
+            Instantiate(weapons[currentWeapon].pickupObject, transform.position + _facingDirectionRaw, Quaternion.identity);
+        }
+        currentWeapon = weaponID;
         weapons[currentWeapon]?.gameObject.SetActive(true);
     }
 
-    private void UnequipAllWeapons()
-    {
-        for (var i = 0; i < weapons.Length; i++)
-        {
-            weapons[i]?.gameObject.SetActive(false);
-        }
-
-        currentWeapon = 0;
-    }
+    public Transform weaponPivotPoint;
 
     private Useable GetSelectedObjects()
     {

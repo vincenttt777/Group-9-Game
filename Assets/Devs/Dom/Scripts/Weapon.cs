@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    public GameObject pickupObject;
+    
     public virtual void OnWeaponDown()
     {
         

@@ -3,24 +3,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sword : Weapon
+public class Spear : Weapon
 {
-    public Vector3 swingStartRot;
-    public Vector3 swingFinalRot;
     public float swingSpeed = 25f;
     private bool swing = false;
+    public float stabAmount = 1f;
+
+    private Vector3 _localPosStart;
 
     public GameObject clangPrefab;
-    
+
+    void Start()
+    {
+        _localPosStart = transform.localPosition;
+    }
     public void Update()
     {
         if (swing)
         {
-            transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(swingStartRot), Time.deltaTime * swingSpeed);
+            transform.localPosition = Vector3.Lerp(transform.localPosition, _localPosStart + Vector3.forward * stabAmount, Time.deltaTime * swingSpeed);
         }
         else
         {
-            transform.localRotation = Quaternion.Slerp(transform.localRotation, Quaternion.Euler(swingFinalRot), Time.deltaTime * swingSpeed);
+            transform.localPosition = Vector3.Lerp(transform.localPosition, _localPosStart, Time.deltaTime * swingSpeed);
         }
     }
 
@@ -37,7 +42,7 @@ public class Sword : Weapon
         Attack();
     }
 
-    public int attackPower = 3;
+    public int attackPower = 2;
 
     private GameManager _gameManager;
 
@@ -45,7 +50,8 @@ public class Sword : Weapon
     {
         _gameManager = Game.GetGameManager();
     }
-    
+
+    public float rayCastDistance = 2f;
     
     void Attack()
     {
@@ -53,7 +59,7 @@ public class Sword : Weapon
 
         bool collision = false;
         
-        var selectedObjects = Physics.SphereCastAll(transform.position + facingDirection * 0.1f, 0.5f, facingDirection, 0.5f);
+        var selectedObjects = Physics.RaycastAll(transform.position,  facingDirection, rayCastDistance);
         
         foreach (var hit in selectedObjects)
         {

@@ -20,9 +20,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/FireBall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/FireBall.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spear.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spear.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/MagicWand.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/MagicWand.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/Spear.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/Spear.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Bow_Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Bow_Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_FireWand_Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_FireWand_Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Spear_pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Spear_pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Sword_Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Sword_Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/FallingStone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/FallingStone.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Fire.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Fire.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Ice.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Ice.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Poison gas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Poison gas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Spike.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Spike.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Wall Spike.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Traps/Wall Spike.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/GAMEBASE.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Sprites/Weapon/STAFFS.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Sprites/Weapon/STAFFS.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PlayerSpawnPoint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PlayerSpawnPoint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Slot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Slot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/StairwellToNextLevel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/StairwellToNextLevel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Treasure_Chest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Treasure_Chest.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/UI/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_StartScreen.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +84,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,7 +118,6 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Standard.shader" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/KindredBillboard.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ArrowType.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/DoubleSided.shader" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/CustomStandard.shader" />
@@ -94,13 +146,17 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/CubeTrainingDummy.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/LightScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spear.cs" />
       </list>
     </option>
   </component>
@@ -169,6 +225,8 @@
       <workItem from="1604355899438" duration="547000" />
       <workItem from="1604415569382" duration="6360000" />
       <workItem from="1604968063607" duration="1249000" />
+      <workItem from="1605457740867" duration="3751000" />
+      <workItem from="1605462820197" duration="433000" />
     </task>
     <servers />
   </component>
@@ -195,9 +253,10 @@
       <screen x="-2560" y="-182" width="2560" height="1350" />
     </state>
     <state x="-1716" y="264" key="Rider.ProjectTemplateDialog.Size/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1600974949455" />
-    <state x="-1301" y="229" key="RiderGenerateDialog" timestamp="1601945504535">
-      <screen x="-2560" y="-182" width="2560" height="1350" />
+    <state x="-1301" y="224" key="RiderGenerateDialog" timestamp="1605458710044">
+      <screen x="-2560" y="-180" width="2560" height="1328" />
     </state>
+    <state x="-1301" y="224" key="RiderGenerateDialog/-2560.-180.2560.1328/0.25.1680.1025@-2560.-180.2560.1328" timestamp="1605458710044" />
     <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601945504535" />
     <state x="-1433" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1604417770781">
       <screen x="-2560" y="-182" width="2560" height="1350" />
