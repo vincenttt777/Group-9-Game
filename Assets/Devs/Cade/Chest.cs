@@ -6,6 +6,8 @@ public class Chest : MonoBehaviour, Useable
 {
     Animator animator;
 
+    public GameObject HealthPotion;
+
     public bool open = false;
 
     public void Start(){
@@ -19,6 +21,9 @@ public class Chest : MonoBehaviour, Useable
         }
         else
             ChestControl("Close");
+        
+        Instantiate(HealthPotion);
+        
     }
 
     public void OnSelect()
