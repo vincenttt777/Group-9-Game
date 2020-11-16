@@ -6,17 +6,16 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour, Damageable
 {
     public static GameObject loot1,loot2,loot3;
-    public float attackRange = 2f;
-    public int maxHealth = 20;
+    public float attackRange = 1f;
+    public int maxHealth = 10;
     public int currentHealth ;
     public float lookRadius = 1f;
     public int Damage = 1;
-    Vector3 StopAt = new Vector3(0.5f,0,0);
+    public float stoppingDistance = 1f;
 
     public Animator animator;
     Transform target;
     NavMeshAgent agent;
-    
     public GameObject[] Loots = 
     {
         loot1,loot2,loot3
@@ -28,7 +27,6 @@ public class EnemyAI : MonoBehaviour, Damageable
         target = Game.GetPlayerTransform();
         agent = GetComponent<NavMeshAgent>();
         currentHealth = maxHealth;
-
         randomNumber = Random.Range(0, 101);
 
     }
@@ -37,16 +35,18 @@ public class EnemyAI : MonoBehaviour, Damageable
     void Update()
     {
         float distance = Vector3.Distance(target.position, transform.position);
-
-        if (distance <= lookRadius)
+        if (transform.position.x < target.position.x)
         {
-            animator.SetBool("PlayerInRange", true);
-            agent.SetDestination(target.position + StopAt);
+            GetComponent<SpriteRenderer>().flipX = true;
         }
         else
         {
-            animator.SetBool("PlayerInRange", false);
+            GetComponent<SpriteRenderer>().flipX = false;
         }
+        agent.updateRotation = false;
+        agent.stoppingDistance = 1f;
+        animator.SetBool("PlayerInRange", true);
+        agent.SetDestination(target.position);
 
         if (distance <= attackRange)
         {
@@ -94,11 +94,12 @@ public class EnemyAI : MonoBehaviour, Damageable
 
     void Drop()
     {
-        if(randomNumber  <= 25)
+        if(randomNumber  <= 10)
         { Instantiate(Loots[0], transform.position, Quaternion.identity); }
-        else if(randomNumber >= 25 && randomNumber <= 50)
+        else if(randomNumber >= 10 && randomNumber <= 50)
             Instantiate(Loots[1], transform.position, Quaternion.identity);
-        else if(randomNumber > 50)
+        else if(randomNumber > 50 && randomNumber <= 60)
             Instantiate(Loots[2], transform.position, Quaternion.identity);
+
     }
 }
