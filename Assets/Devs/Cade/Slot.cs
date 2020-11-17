@@ -7,13 +7,15 @@ using UnityEngine;
 public class Slot : MonoBehaviour
 {
     private Inventory inventory;
+    public int slotIndex;
    public void DropItem(){
-        GameObject.Destroy(gameObject);
-        
+        FindObjectOfType<Inventory>().isFull[slotIndex] = false;
+        GameObject.Destroy(gameObject); 
    }
 
    public void potionClick(){
        Game.GetPlayerTransform().GetComponent<Player>().Health += 1; 
+
    }
 
    public void speedClick(){
