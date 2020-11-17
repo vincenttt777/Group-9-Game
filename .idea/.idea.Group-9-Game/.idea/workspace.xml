@@ -155,8 +155,8 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" />
       </list>
     </option>
   </component>
@@ -226,7 +226,7 @@
       <workItem from="1604415569382" duration="6360000" />
       <workItem from="1604968063607" duration="1249000" />
       <workItem from="1605457740867" duration="3751000" />
-      <workItem from="1605462820197" duration="433000" />
+      <workItem from="1605462820197" duration="734000" />
     </task>
     <servers />
   </component>
