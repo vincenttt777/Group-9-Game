@@ -6,7 +6,7 @@ public class Chest : MonoBehaviour, Useable
 {
     Animator animator;
 
-    public GameObject HealthPotion;
+    public GameObject contents;
 
     public bool open = false;
 
@@ -19,10 +19,7 @@ public class Chest : MonoBehaviour, Useable
         if(open){
             ChestControl("Open");
         }
-        else
-            ChestControl("Close");
-        
-        Instantiate(HealthPotion);
+        Instantiate(contents,transform.position+Vector3.back, Quaternion.identity);
         
     }
 
