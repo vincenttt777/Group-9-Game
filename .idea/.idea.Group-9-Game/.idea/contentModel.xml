@@ -42,6 +42,7 @@
               <e p="ColorChanger.cs" t="Include" />
               <e p="DamageTester.cs" t="Include" />
               <e p="DestroyAfterSeconds.cs" t="Include" />
+              <e p="DestructableDoor.cs" t="Include" />
               <e p="DoorTest.cs" t="Include" />
               <e p="Entity.cs" t="Include" />
               <e p="GameCamera.cs" t="Include" />
@@ -65,6 +66,7 @@
               <e p="Sword.cs" t="Include" />
               <e p="TestingLights.cs" t="Include" />
               <e p="TestTrigger.cs" t="Include" />
+              <e p="Throwable.cs" t="Include" />
               <e p="Wand.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
               <e p="WeaponPickUp.cs" t="Include" />
@@ -113,7 +115,9 @@
           <e p="Zihao" t="Include">
             <e p="Scripts" t="Include">
               <e p="Enemy" t="Include">
+                <e p="Attack.cs" t="Include" />
                 <e p="EnemyAI.cs" t="Include" />
+                <e p="Skeleton.cs" t="Include" />
               </e>
               <e p="Guns.cs" t="Include" />
               <e p="Loot" t="Include">

@@ -8,12 +8,15 @@ public class Projectile : MonoBehaviour
 {
     public int damage = 10;
     public float speed;
+    public float spinSpeed = 0;
 
     public GameObject destroyPrefab;
+
 
     private void Update()
     {
         transform.position += transform.forward * (Time.deltaTime * speed);
+        transform.GetChild(0).localEulerAngles += Vector3.up * (spinSpeed * Time.deltaTime);
     }
 
     public void OnTriggerEnter(Collider other)
