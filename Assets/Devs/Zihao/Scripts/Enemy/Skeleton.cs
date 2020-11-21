@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-
+using DG.Tweening;
 public class Skeleton : MonoBehaviour, Damageable
 {
-    public static GameObject loot1, loot2, loot3;
+    public static GameObject loot0,loot1,loot2,loot3;
 
     public int maxHealth = 50;
     public int currentHealth;
-
-
     public float attackRange = 1f;
     public float lookRadius = 15f;
     public float stoppingDistance = 3f;
@@ -23,10 +21,10 @@ public class Skeleton : MonoBehaviour, Damageable
     Transform target;
     public Transform attackPoint;
     NavMeshAgent agent;
-    public LayerMask playerLayer;
+
     public GameObject[] Loots =
     {
-        loot1,loot2,loot3
+        loot0,loot1,loot2,loot3
     };
 
     public int randomNumber;
@@ -35,7 +33,6 @@ public class Skeleton : MonoBehaviour, Damageable
     {
         target = Game.GetPlayerTransform();
         currentHealth = maxHealth;
-
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.stoppingDistance = 2f;
@@ -72,19 +69,14 @@ public class Skeleton : MonoBehaviour, Damageable
 
         if (distance <= attackRange)//Attack if in range
         {
-            Debug.Log("Attack");
             Attack();
-        }
-        else 
-        {
-            attackPoint.GetComponent<BoxCollider>().enabled = false;
         }
     }
 
     public void OnDamaged(int damage)
     {
         currentHealth -= damage;
-        GetComponent<Animator>().SetTrigger("Hurt");
+        transform.DOShakePosition(0.5f, Vector3.one * 0.1f, 20);
         if (currentHealth <= 0)
         {
             Die();
@@ -92,18 +84,26 @@ public class Skeleton : MonoBehaviour, Damageable
 
     }
 
-    IEnumerator AttackDelay()
-    {
-        Debug.Log("AttackDelay Start");
-       yield return new WaitForSeconds(1.2f);
-        attackPoint.GetComponent<BoxCollider>().enabled = true;
-        Debug.Log("AttackDelay End");
-    }
-
     void Attack()
     {
         GetComponent<Animator>().SetTrigger("Attack");
-        StartCoroutine(AttackDelay());
+    }
+    void TurnOnAttack()
+    {
+        attackPoint.GetComponent<BoxCollider>().enabled = true;
+    }
+    void TurnOffAttack()
+    { 
+        attackPoint.GetComponent<BoxCollider>().enabled = false;
+    }
+
+    void StopMoving()
+    {
+        agent.speed = 0;
+    }
+    void StartMoving()
+    {
+        agent.speed = 2;
     }
     void OnDrawGizmosSelected()
     {
@@ -114,12 +114,13 @@ public class Skeleton : MonoBehaviour, Damageable
 
     void Die()
     {
-        Debug.Log("Enemy is Dead");
-        animator.SetBool("Dead", true);
+
+        animator.Play("Skeleton_Die");
         Drop();
         GetComponent<Collider>().enabled = false;
         GetComponent<NavMeshAgent>().enabled = false;
         this.enabled = false;
+
     }
 
     void Drop()
@@ -130,6 +131,8 @@ public class Skeleton : MonoBehaviour, Damageable
             Instantiate(Loots[1], transform.position, Quaternion.identity);
         else if (randomNumber > 50 && randomNumber <= 60)
             Instantiate(Loots[2], transform.position, Quaternion.identity);
+        else if(randomNumber > 60 && randomNumber<= 70)
+            Instantiate(Loots[3], transform.position, Quaternion.identity);
 
     }
 }

@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using DG.Tweening;
 
 public class EnemyAI : MonoBehaviour, Damageable
 {
-    public static GameObject loot1,loot2,loot3;
+    public static GameObject loot1,loot2,loot3,loot4;
     public float attackRange = 1f;
     public int maxHealth = 10;
     public int currentHealth ;
@@ -18,7 +19,7 @@ public class EnemyAI : MonoBehaviour, Damageable
     NavMeshAgent agent;
     public GameObject[] Loots = 
     {
-        loot1,loot2,loot3
+        loot1,loot2,loot3,loot4
     };
 
     public int randomNumber;
@@ -62,6 +63,7 @@ public class EnemyAI : MonoBehaviour, Damageable
     {
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
+        transform.DOShakePosition(0.5f, Vector3.one * 0.1f, 20);
         if (currentHealth <= 0)
         {
             Die();
@@ -94,12 +96,14 @@ public class EnemyAI : MonoBehaviour, Damageable
 
     void Drop()
     {
-        if(randomNumber  <= 10)
+        if (randomNumber <= 10)
         { Instantiate(Loots[0], transform.position, Quaternion.identity); }
-        else if(randomNumber >= 10 && randomNumber <= 50)
+        else if (randomNumber >= 10 && randomNumber <= 50)
             Instantiate(Loots[1], transform.position, Quaternion.identity);
-        else if(randomNumber > 50 && randomNumber <= 60)
+        else if (randomNumber > 50 && randomNumber <= 60)
             Instantiate(Loots[2], transform.position, Quaternion.identity);
+        else if (randomNumber > 60 && randomNumber <= 70)
+            Instantiate(Loots[3], transform.position, Quaternion.identity);
 
     }
 }

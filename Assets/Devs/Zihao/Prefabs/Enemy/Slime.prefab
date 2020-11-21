@@ -121,11 +121,11 @@ MonoBehaviour:
   currentHealth: 0
   lookRadius: 7
   Damage: 1
+  stoppingDistance: 1
   animator: {fileID: 8986615545477426391}
   Loots:
   - {fileID: 3340163733524043772, guid: 351922e870e81724495e34dd2f2ba747, type: 3}
   - {fileID: 6298298421348606595, guid: 36a36dd8e268ed74d97902efd9dda699, type: 3}
-  - {fileID: 9110898779163629859, guid: c2d6bfdc26703f84e8d3556e7d902c87, type: 3}
   randomNumber: 0
 --- !u!65 &8986615545477426384
 BoxCollider:
