@@ -9,15 +9,13 @@ public class Spike : MonoBehaviour
     public PlayerDamaged damage;
     public bool inTrigger;
 
-    public Shaker Shaker;
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
         if(other.transform == Game.GetPlayerTransform())
         {
             Game.DamageObject(other.transform.gameObject, spikeDamages);
-            StartCoroutine(Shaker.Shake(0.1f, 0.01f));
-            transform.DOJump(transform.position,1.2f,1,1f);
+            transform.DOJump(transform.position,1.3f,1,1f);
         }
         if (inTrigger)
         {

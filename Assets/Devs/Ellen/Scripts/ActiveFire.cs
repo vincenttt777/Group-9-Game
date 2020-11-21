@@ -36,8 +36,8 @@ public class ActiveFire : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        fire.SetActive(false);
         StartCoroutine(firedisappear());
+        StartCoroutine(ffalse());
     }
 
     private IEnumerator firedisappear()
@@ -46,5 +46,10 @@ public class ActiveFire : MonoBehaviour
         fireone.SetActive(false);
         firetwo.SetActive(false);
         firethree.SetActive(false);
+    }
+    private IEnumerator ffalse()
+    {
+        yield return new WaitForSeconds(1.5f);
+        fire.SetActive(false);
     }
 }

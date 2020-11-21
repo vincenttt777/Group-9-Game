@@ -8,7 +8,16 @@ public class potion : MonoBehaviour
     public bool inTrigger;
     public bool noenoughcoin;
     public bool isPressed = false;
+    public GameObject[] prefeb;
+    public Sprite[] Sprite_Pic;
+    private int rand;
+    private int spriterand;
 
+    private void Start()
+    {
+        spriterand = Random.Range(0, Sprite_Pic.Length);
+        GetComponent<SpriteRenderer>().sprite = Sprite_Pic[spriterand];
+    }
     private void Update()
     {
         isPressed = Input.GetKey(KeyCode.E);
@@ -33,6 +42,19 @@ public class potion : MonoBehaviour
             if (Game.GetGameManager().CoinCount >= PotionPrice)
             {
                 Game.GetGameManager().CoinCount -= PotionPrice;
+                rand = spriterand;
+                if (Sprite_Pic[spriterand].name == "S_ItemHeavyOutline_JarBlue_01")
+                {
+                    Instantiate(prefeb[rand], new Vector3(-0.5f, 0, -6f), Quaternion.identity);
+                }
+                else if (Sprite_Pic[spriterand].name == "S_ItemHeavyOutline_JarGreen_01")
+                {
+                    Instantiate(prefeb[rand], new Vector3(-0.5f, 0, -6f), Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(prefeb[rand], new Vector3(-0.5f, 0, -6f), Quaternion.identity);
+                }
                 Destroy(gameObject);
             }
         }

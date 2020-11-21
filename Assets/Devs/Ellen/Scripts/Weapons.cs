@@ -9,6 +9,16 @@ public class Weapons : MonoBehaviour
     public bool inTrigger;
     public bool noenoughcoin;
     public bool isPressed = false;
+    public GameObject[] prefeb;
+    public Sprite[] Sprite_Pic;
+    private int rand;
+    private int spriterand;
+
+    private void Start()
+    {
+        spriterand = Random.Range(0, Sprite_Pic.Length);
+        GetComponent<SpriteRenderer>().sprite = Sprite_Pic[spriterand];
+    }
 
     private void Update()
     {
@@ -36,6 +46,23 @@ public class Weapons : MonoBehaviour
             if (Game.GetGameManager().CoinCount >= WeapsonPrice)
             {
                 Game.GetGameManager().CoinCount -= WeapsonPrice;
+                rand = spriterand;
+                if (Sprite_Pic[spriterand].name == "bow_0")
+                {
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
+                }
+                else if (Sprite_Pic[spriterand].name == "Firwand")
+                {
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
+                }
+                else if(Sprite_Pic[spriterand].name == "Spear")
+                {
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
+                }
                 Destroy(gameObject);
             }
         }

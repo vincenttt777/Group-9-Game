@@ -10,20 +10,5 @@ public class PlayerDamaged : MonoBehaviour, Damageable
     public void OnDamaged(int damage)
     {
         health -= damage;
-
-        if (health <= 0)
-        {
-            Die();
-        }
-        else
-        {
-            //Hurt();
-        }
     }
-
-    public void Die()
-    {
-        gameObject.SetActive(false);
-    }
-
 }

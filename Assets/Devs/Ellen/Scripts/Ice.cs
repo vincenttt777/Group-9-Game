@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Ice : MonoBehaviour
 {
-    public PlayerController speed;
     public int spikeDamages = 1;
     public PlayerDamaged damage;
     public bool inTrigger;
 
     private void OnTriggerEnter(Collider other)
     {
-        speed.moveSpeed = 3f;
+        Game.Player.SetPlayerSpeedFactor(0.25f, 6);
         if (other.transform == Game.GetPlayerTransform())
         {
             Game.DamageObject(other.transform.gameObject, spikeDamages);
@@ -20,10 +19,5 @@ public class Ice : MonoBehaviour
         {
             damage.OnDamaged(spikeDamages);
         }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        speed.moveSpeed = 5f;
     }
 }

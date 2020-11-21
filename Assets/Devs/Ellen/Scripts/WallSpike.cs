@@ -10,18 +10,15 @@ public class WallSpike : MonoBehaviour
     public PlayerDamaged damage;
     public bool inTrigger;
 
-    public Shaker Shaker;
-
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
         if (other.transform == Game.GetPlayerTransform())
         {
             Game.DamageObject(other.transform.gameObject, spikeDamages);
-            StartCoroutine(Shaker.Shake(.15f, 0.4f));
-            transform.DOMoveZ(-6.2f, 1.2f);
-            StartCoroutine(Shaker.Shake(.15f, 0.1f));
-            Invoke("Move", 0.7f);
+            transform.DOMoveZ(gameObject.transform.position.z-1f, 1.2f);
+            Debug.Log(gameObject.transform.position.z);
+            Invoke("Move", 0.9f);
         }
         if (inTrigger)
         {
@@ -31,6 +28,7 @@ public class WallSpike : MonoBehaviour
 
     private void Move()
     {
-        transform.DOMoveZ(-5f, 1.2f);
+        transform.DOMoveZ(gameObject.transform.position.z+1f, 1.2f);
+        Debug.Log(gameObject.transform.position.z);
     }
 }
