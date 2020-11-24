@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/EventSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/PuzzleTriggerEvent.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Levels/DoorExamples.unity" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/Levels/DoorExamples.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
@@ -112,11 +113,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Diego/Scripts/PuzzleTriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Resources/AutoLight.cginc" />
         <option value="$PROJECT_DIR$/Assets/Resources/UnityStandardShadow.cginc" />
@@ -167,6 +168,7 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/PuzzleTriggerEvent.cs" />
       </list>
     </option>
   </component>
@@ -238,7 +240,7 @@
       <workItem from="1605457740867" duration="3751000" />
       <workItem from="1605462820197" duration="734000" />
       <workItem from="1605801356611" duration="1703000" />
-      <workItem from="1606178492970" duration="1068000" />
+      <workItem from="1606178492970" duration="1534000" />
     </task>
     <servers />
   </component>
@@ -265,10 +267,10 @@
       <screen x="-2560" y="-182" width="2560" height="1350" />
     </state>
     <state x="-1716" y="264" key="Rider.ProjectTemplateDialog.Size/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1600974949455" />
-    <state x="-1433" y="193" key="RiderGenerateDialog" timestamp="1606180172821">
+    <state x="-1433" y="193" key="RiderGenerateDialog" timestamp="1606180500312">
       <screen x="-2560" y="-180" width="2560" height="1325" />
     </state>
-    <state x="-1433" y="193" key="RiderGenerateDialog/-2560.-180.2560.1325/0.25.1680.1025@-2560.-180.2560.1325" timestamp="1606180172821" />
+    <state x="-1433" y="193" key="RiderGenerateDialog/-2560.-180.2560.1325/0.25.1680.1025@-2560.-180.2560.1325" timestamp="1606180500312" />
     <state x="-1301" y="224" key="RiderGenerateDialog/-2560.-180.2560.1328/0.25.1680.1025@-2560.-180.2560.1328" timestamp="1605458710044" />
     <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601945504535" />
     <state x="-1433" y="150" width="670" height="665" key="search.everywhere.popup" timestamp="1605801439765">

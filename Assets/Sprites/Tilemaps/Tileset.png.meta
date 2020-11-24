@@ -64,7 +64,10 @@ TextureImporter:
     second: StoneDoorway
   - first:
       213: 3931779560235752176
-    second: Tileset_LockedDoor
+    second: LockedDoor
+  - first:
+      213: -1865757787562490331
+    second: SealedDoor
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -528,7 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_LockedDoor
+      name: LockedDoor
       rect:
         serializedVersion: 2
         x: 144
@@ -544,6 +547,27 @@ TextureImporter:
       bones: []
       spriteID: 0fa5ef6bdac709630800000000000000
       internalID: 3931779560235752176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SealedDoor
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 32
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5264b6b6d2f7b16e0800000000000000
+      internalID: -1865757787562490331
       vertices: []
       indices: 
       edges: []
