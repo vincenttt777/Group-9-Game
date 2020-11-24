@@ -2,26 +2,42 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorScript : MonoBehaviour
+public class DoorScript : MonoBehaviour, Useable
 {
     Animator anim;
+    public bool isLocked = false;
     void Start ()
     {
         anim = GetComponent<Animator>();
     }
-    void OnTriggerEnter(Collider other)
+
+    public void OpenDoor()
     {
-        if(other.tag == "Player")
-        {
-            Input.GetKeyDown(KeyCode.E);
-            anim.SetTrigger("door");   
-        }
+        // Door destroys itself
+        anim.SetTrigger("door");   
     }
-    void OnTriggerExit(Collider other)
+
+    public void OnUse()
     {
-        if (other.tag == "Player")
+        if (isLocked)
         {
-            anim.SetTrigger("close");
+            if (Game.GetGameManager().KeyCount > 0)
+            {
+                Game.GetGameManager().KeyCount = Game.GetGameManager().KeyCount - 1;
+                isLocked = false;
+                OpenDoor();
+            }
+            return;
         }
+        
+        OpenDoor();
+    }
+
+    public void OnSelect()
+    {
+    }
+
+    public void OnDeselect()
+    {
     }
 }

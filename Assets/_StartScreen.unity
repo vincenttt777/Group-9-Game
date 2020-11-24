@@ -429,6 +429,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1827206923, guid: e37f819a68c524c4e9a03bbaba21c0da, type: 3}
+      propertyPath: m_text
+      value: Dungeon Crawler
+      objectReference: {fileID: 0}
     - target: {fileID: 245771576262112282, guid: e37f819a68c524c4e9a03bbaba21c0da,
         type: 3}
       propertyPath: m_AnchorMin.y

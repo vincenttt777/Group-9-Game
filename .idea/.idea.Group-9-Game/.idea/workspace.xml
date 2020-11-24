@@ -20,41 +20,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Thrown_rock.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Prefabs/Thrown_rock.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Blanks for Duplicating.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Blanks for Duplicating/BlankRoom_Large.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Blanks for Duplicating/BlankRoom_Large.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Blanks for Duplicating/BlankRoom_Medium.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Blanks for Duplicating/BlankRoom_Medium.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Blanks for Duplicating/BlankRoom_Small.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/Blanks for Duplicating/BlankRoom_Small.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Environment/PrisonBars.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Environment/PrisonBars.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Rock_Pickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Rock_Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/EventSample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/DoorExamples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/DoorExamples.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Cade/2D Pixel Item Pack/Heavy Outline/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/MagicWand.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Weapons/MagicWand.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Prefabs/Key.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/BlankRoom_Large.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/BlankRoom_Large.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/BlankRoom_Medium.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/BlankRoom_Medium.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/BlankRoom_Small.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/BlankRoom_Small.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX2_Glow1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX2_Glow1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX2_SkullStretched Add1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX2_SkullStretched Add1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX2_WWSmoke2 AB1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX2_WWSmoke2 AB1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX_RayRounded1.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Materials/CFX_RayRounded1.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX2_T_Glow1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX2_T_Glow1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX2_T_SkullStretch1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX2_T_SkullStretch1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX2_T_WWInvSmoke2 AB1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX2_T_WWInvSmoke2 AB1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX_T_RayRounded1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CFX2 Prefabs/Textures/CFX_T_RayRounded1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CartoonFX Free.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/CartoonFX Free.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_Circular1.51.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_Circular1.51.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_Circular1.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_Circular1.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_Circular21.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_Circular21.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_CircularAngle1.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Mesh/CFX_Mesh_CircularAngle1.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_AutoDestructShurikeloop.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_AutoDestructShurikeloop.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_AutoRotate1.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_AutoRotate1.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_LightFlicker1.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_LightFlicker1.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_LightIntensityFade1.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Scripts/CFX_LightIntensityFade1.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Shaders/CFX3 Multiply Color1.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Shaders/CFX3 Multiply Color1.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Shaders/CFXM_MobileParticleAdd_Alpha81.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Materials/Cartoon FX - Copy/Shaders/CFXM_MobileParticleAdd_Alpha81.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/CFX2 Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/CFX2 Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/CartoonFX Free.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/CartoonFX Free.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Misc/CFX2_Glow.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Misc/CFX2_Glow.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Misc/CFX2_WWSmoke2 AB.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Misc/CFX2_WWSmoke2 AB.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Stretched/CFX_RayRounded.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Stretched/CFX_RayRounded.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_SkullStretched Add.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Materials/Symbols/CFX2_SkullStretched Add.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular1.5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular1.5.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular2.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_Circular2.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_CircularAngle.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Mesh/CFX_Mesh_CircularAngle.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_AutoRotate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_AutoRotate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_LightFlicker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_LightFlicker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_LightIntensityFade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Scripts/CFX_LightIntensityFade.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Shaders/CFX3 Multiply Color.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Shaders/CFX3 Multiply Color.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Shaders/CFXM_MobileParticleAdd_Alpha8.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Shaders/CFXM_MobileParticleAdd_Alpha8.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX2_T_Glow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX2_T_Glow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX2_T_SkullStretch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX2_T_SkullStretch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX2_T_WWInvSmoke2 AB.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX2_T_WWInvSmoke2 AB.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX_T_RayRounded.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Zihao/Particals/JMO Assets/Cartoon FX/Textures/CFX_T_RayRounded.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/StartingPrisonRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/StartingPrisonRoom.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tilemaps/Tileset.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Environment/DungeonCornerBeam.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Environment/DungeonCornerBeam.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Environment/DungeonWall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Environment/DungeonWall.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_StartScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_StartScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,33 +89,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Diego/Scripts/EventSample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Resources/AutoLight.cginc" />
@@ -142,6 +166,7 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" />
       </list>
     </option>
   </component>
@@ -213,6 +238,7 @@
       <workItem from="1605457740867" duration="3751000" />
       <workItem from="1605462820197" duration="734000" />
       <workItem from="1605801356611" duration="1703000" />
+      <workItem from="1606178492970" duration="1068000" />
     </task>
     <servers />
   </component>
@@ -239,9 +265,10 @@
       <screen x="-2560" y="-182" width="2560" height="1350" />
     </state>
     <state x="-1716" y="264" key="Rider.ProjectTemplateDialog.Size/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1600974949455" />
-    <state x="-1301" y="224" key="RiderGenerateDialog" timestamp="1605458710044">
-      <screen x="-2560" y="-180" width="2560" height="1328" />
+    <state x="-1433" y="193" key="RiderGenerateDialog" timestamp="1606180172821">
+      <screen x="-2560" y="-180" width="2560" height="1325" />
     </state>
+    <state x="-1433" y="193" key="RiderGenerateDialog/-2560.-180.2560.1325/0.25.1680.1025@-2560.-180.2560.1325" timestamp="1606180172821" />
     <state x="-1301" y="224" key="RiderGenerateDialog/-2560.-180.2560.1328/0.25.1680.1025@-2560.-180.2560.1328" timestamp="1605458710044" />
     <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601945504535" />
     <state x="-1433" y="150" width="670" height="665" key="search.everywhere.popup" timestamp="1605801439765">
