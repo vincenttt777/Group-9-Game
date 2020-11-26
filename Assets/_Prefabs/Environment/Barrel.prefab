@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &582826057740626691
+--- !u!1 &7047660985937211323
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 582826057740626692}
-  - component: {fileID: 582826057740626693}
-  - component: {fileID: 582826057740626690}
-  - component: {fileID: 582826057740626694}
-  - component: {fileID: 582826057740626695}
+  - component: {fileID: 7047660985937211327}
+  - component: {fileID: 7047660985937211324}
+  - component: {fileID: 7047660985937211325}
+  - component: {fileID: 7047660985937211322}
   m_Layer: 0
-  m_Name: PrisonDoor
+  m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &582826057740626692
+--- !u!4 &7047660985937211327
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582826057740626691}
-  m_LocalRotation: {x: -0, y: 0.0000002402557, z: -0, w: 1}
-  m_LocalPosition: {x: 1.17, y: -0, z: -4.473}
+  m_GameObject: {fileID: 7047660985937211323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.14, y: 0, z: -1.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &582826057740626693
+--- !u!212 &7047660985937211324
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582826057740626691}
+  m_GameObject: {fileID: 7047660985937211323}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -73,56 +72,43 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9164683769879867358, guid: 6f7c8c31907a04a219ec4c59c12efd53,
+  m_Sprite: {fileID: -2883895470289388798, guid: cefb30fe642ad4c888ad0267cad7942e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 2.0625}
+  m_Size: {x: 1.375, y: 2.125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &582826057740626690
-BoxCollider:
+--- !u!136 &7047660985937211325
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582826057740626691}
+  m_GameObject: {fileID: 7047660985937211323}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.99, y: 1.3125, z: 0.2}
-  m_Center: {x: -0.6875, y: 0.65625, z: 0}
---- !u!54 &582826057740626694
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582826057740626691}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &582826057740626695
+  m_Radius: 0.34375
+  m_Height: 1.0625
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.53125, z: 0}
+--- !u!114 &7047660985937211322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582826057740626691}
+  m_GameObject: {fileID: 7047660985937211323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f800bf2e67a0049c6904da65e1b236b1, type: 3}
+  m_Script: {fileID: 11500000, guid: d9cf3385ae8f54a4cb319a13df5ca516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnOnDeath: {fileID: 901523522287533459, guid: 80f3fec912c3a48c8859a205a7a0d3e4,
+    type: 3}

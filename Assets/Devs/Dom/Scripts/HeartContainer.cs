@@ -31,8 +31,8 @@ public class HeartContainer : MonoBehaviour
         
         Game.GetPlayerTransform().GetComponent<Player>().SetMaxHealth(currentMax);
         
-        Game.GetPlayerTransform().GetComponent<Player>().Health = currentMax;
-        Game.GetPlayerTransform().GetComponent<Player>().SetMaxHealth(currentMax);
+        //Game.GetPlayerTransform().GetComponent<Player>().Health = currentMax;
+        //Game.GetPlayerTransform().GetComponent<Player>().SetMaxHealth(currentMax);
         
         if(spawnOnPickup) Instantiate(spawnOnPickup, transform.position, Quaternion.identity);
         

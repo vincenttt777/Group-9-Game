@@ -16,7 +16,9 @@ public class Player : Entity
     IEnumerator DoInvulnerable(float duration)
     {
         invulnerable = true;
+        transform.GetChild(0).GetComponent<SpriteRenderer>().color = new Color(0f, 0.5f, 1f, 1f);
         yield return new WaitForSeconds(duration);
+        transform.GetChild(0).GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 1f);
         invulnerable = false;
     }
     

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4366773947392747809}
   - component: {fileID: 3180235176314178881}
   - component: {fileID: 8258654184539170876}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FireBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4784,6 +4784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   speed: 6
+  spinSpeed: 0
   destroyPrefab: {fileID: 671103566061060150, guid: 2d6dca14bd8dd4fa084a72b3ea892a95,
     type: 3}
 --- !u!54 &8258654184539170876

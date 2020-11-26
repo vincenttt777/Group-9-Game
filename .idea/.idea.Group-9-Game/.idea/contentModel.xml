@@ -44,6 +44,7 @@
               <e p="ColorChanger.cs" t="Include" />
               <e p="DamageTester.cs" t="Include" />
               <e p="DestroyAfterSeconds.cs" t="Include" />
+              <e p="Destructable.cs" t="Include" />
               <e p="DestructableDoor.cs" t="Include" />
               <e p="DoorTest.cs" t="Include" />
               <e p="Entity.cs" t="Include" />
