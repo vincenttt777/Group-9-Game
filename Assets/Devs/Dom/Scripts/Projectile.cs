@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
     private void Update()
     {
         transform.position += transform.forward * (Time.deltaTime * speed);
-        transform.GetChild(0).localEulerAngles += Vector3.up * (spinSpeed * Time.deltaTime);
+        if(transform.childCount > 0) transform.GetChild(0).localEulerAngles += Vector3.up * (spinSpeed * Time.deltaTime);
     }
 
     public void OnTriggerEnter(Collider other)
