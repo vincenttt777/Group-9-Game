@@ -5,7 +5,7 @@ using DG.Tweening;
 public class StormHead : MonoBehaviour, Damageable
 {
     public static GameObject loot1, loot2, loot3, loot4;
-    public float attackRange = 20f;
+    public float attackRange = 13f;
     public int maxHealth = 10;
     public int currentHealth;
     public int Damage = 1;
@@ -36,8 +36,14 @@ public class StormHead : MonoBehaviour, Damageable
     {
         float distance = Vector3.Distance(target.position, transform.position);
 
-        if (distance <= attackRange && Isdead == false )
+        if (distance <= attackRange && Isdead == false)
+        {
+            GetComponent<Animator>().enabled = true;
             animator.Play("StormHead_Attack");
+        }
+        else
+        
+            GetComponent<Animator>().enabled = false;
         
     }
 

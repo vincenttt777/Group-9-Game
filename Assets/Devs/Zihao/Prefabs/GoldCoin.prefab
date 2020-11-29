@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4468258969918616492}
   m_Layer: 0
   m_Name: GoldCoin
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,6 +118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentObject: 0
   PickQuantity: 3
+  thePlayer: {fileID: 0}
 --- !u!65 &4468258969918616492
 BoxCollider:
   m_ObjectHideFlags: 0

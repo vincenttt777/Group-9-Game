@@ -8,19 +8,16 @@ using DG.Tweening;
 public class Boss : MonoBehaviour, Damageable
 {
     //-----------------DropStats----------------
-    public static GameObject loot0, loot1, loot2, loot3;
-    public GameObject[] Loots =
-    {
-        loot0,loot1,loot2,loot3
-    };
+    public GameObject BossKey;
 
     public int randomNumber;
     //------------BattleStats-------------------
-    public int maxHealth = 1000;
+    public int maxHealth = 500;
     public int currentHealth;
     public float Skill01Range = 15f;
     public float lookRadius = 15f;
     public float stoppingDistance = 3f;
+
     //--------------MoveStats-------------------
     Vector3 right = new Vector3(0.126f, -0.093f, 0f);
     Vector3 left = new Vector3(-0.126f, -0.093f, 0f);
@@ -42,8 +39,16 @@ public class Boss : MonoBehaviour, Damageable
     public ParticleSystem Intro;
     public GameObject Stage2;
     public ParticleSystem P_Summon;
+    public ParticleSystem Death1;
+    public ParticleSystem Death2;
+    public ParticleSystem Death3;
+    public ParticleSystem Death4;
     //--------------HealthBar--------------------------
     public Slider healthbar;
+
+
+
+
     void Start()
     {
         target = Game.GetPlayerTransform();
@@ -87,12 +92,12 @@ public class Boss : MonoBehaviour, Damageable
             }
             //---------------------------   Skill Start --------------------
 
-            if (currentHealth >= 800)//Attack01
+            if (currentHealth >= 500)//Attack01
             {
                 GetComponent<Animator>().Play("Boss01_Attack1");
             }
 
-            if (currentHealth < 800 && currentHealth >= 600)
+            if (currentHealth < 500 && currentHealth >= 400)
             {
                 if (Intro2 == true)
                 {
@@ -107,7 +112,7 @@ public class Boss : MonoBehaviour, Damageable
                 }
             }
 
-            if (currentHealth < 600 && currentHealth >= 400 && NeedHeal == false)
+            if (currentHealth < 400 && currentHealth >= 300 && NeedHeal == false)
             {
                 if (CanSummonStage1 == true)
                 {
@@ -121,7 +126,7 @@ public class Boss : MonoBehaviour, Damageable
 
             }
 
-            if (currentHealth < 400 && currentHealth >= 100 && NeedHeal == false)
+            if (currentHealth < 300 && currentHealth >= 100 && NeedHeal == false)
             {
 
                     GetComponent<Animator>().Play("Boss01_Attack2");
@@ -154,6 +159,10 @@ public class Boss : MonoBehaviour, Damageable
         transform.DOShakePosition(0.5f, Vector3.one * 0.1f, 20);
         if (currentHealth <= 0)
         {
+            Death1.GetComponent<ParticleSystem>().Play();
+            Death2.GetComponent<ParticleSystem>().Play();
+            Death3.GetComponent<ParticleSystem>().Play();
+            Death4.GetComponent<ParticleSystem>().Play();
             Die();
         }
 
@@ -199,14 +208,8 @@ public class Boss : MonoBehaviour, Damageable
 
     void Drop()
     {
-        if (randomNumber <= 10)
-        { Instantiate(Loots[0], transform.position, Quaternion.identity); }
-        else if (randomNumber >= 10 && randomNumber <= 50)
-            Instantiate(Loots[1], transform.position, Quaternion.identity);
-        else if (randomNumber > 50 && randomNumber <= 60)
-            Instantiate(Loots[2], transform.position, Quaternion.identity);
-        else if (randomNumber > 60 && randomNumber <= 70)
-            Instantiate(Loots[3], transform.position, Quaternion.identity);
+        
+            Instantiate(BossKey, transform.position, Quaternion.identity);
 
     }
 
@@ -221,8 +224,8 @@ public class Boss : MonoBehaviour, Damageable
     //---------------------------AttackStage2-----------------------------------
     void ShootType02()
     {
-        Vector3 ShootLeft = new Vector3(attackPoint.transform.position.x + 3f, attackPoint.transform.position.y, attackPoint.transform.position.z);
-        Vector3 ShootRight = new Vector3(attackPoint.transform.position.x - 3f, attackPoint.transform.position.y, attackPoint.transform.position.z);
+        Vector3 ShootLeft = new Vector3(attackPoint.transform.position.x + 2f, attackPoint.transform.position.y, attackPoint.transform.position.z);
+        Vector3 ShootRight = new Vector3(attackPoint.transform.position.x - 2f, attackPoint.transform.position.y, attackPoint.transform.position.z);
 
         Instantiate(bullet, ShootLeft, Quaternion.identity);
         Instantiate(bullet, attackPoint.transform.position, Quaternion.identity);
@@ -244,7 +247,7 @@ public class Boss : MonoBehaviour, Damageable
         void Heal()
     {
         //VFX
-        currentHealth += 30;
+        currentHealth += 20;
     }
     //----------------------------------------------------------------------------
     void StopMoving()

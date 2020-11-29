@@ -7,6 +7,12 @@ TagManager:
   - Door
   - PlayerSpawnPoint
   - Bullet
+  - FxTemporaire
+  - Traps
+  - Environment
+  - Block
+  - MeleeWeapon
+  - Item
   layers:
   - Default
   - TransparentFX

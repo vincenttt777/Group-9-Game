@@ -49,19 +49,19 @@ public class Weapons : MonoBehaviour
                 rand = spriterand;
                 if (Sprite_Pic[spriterand].name == "bow_0")
                 {
-                    Instantiate(prefeb[rand], new Vector3(-23f, 1, 7), Quaternion.identity);
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
                 }
                 else if (Sprite_Pic[spriterand].name == "Firwand")
                 {
-                    Instantiate(prefeb[rand], new Vector3(-23f, 1, 7), Quaternion.identity);
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
                 }
                 else if(Sprite_Pic[spriterand].name == "Spear")
                 {
-                    Instantiate(prefeb[rand], new Vector3(-23f, 1, 7), Quaternion.identity);
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
                 }
                 else
                 {
-                    Instantiate(prefeb[rand], new Vector3(-23f, 1, 7), Quaternion.identity);
+                    Instantiate(prefeb[rand], new Vector3(-7f, 0.6f, -6f), Quaternion.identity);
                 }
                 Destroy(gameObject);
             }
