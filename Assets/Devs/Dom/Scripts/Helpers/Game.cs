@@ -30,6 +30,13 @@ public class Game
         return damaged;
     }
 
+    public static PlayerController Player => GetPlayer();
+
+    public static PlayerController GetPlayer()
+    {
+        return GameManager.Instance.Player;
+    }
+
     public static GameManager GetGameManager ()
     {
         return GameManager.Instance;

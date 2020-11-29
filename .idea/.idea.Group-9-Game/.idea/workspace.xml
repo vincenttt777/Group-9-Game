@@ -20,29 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects/PixelExplosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Effects/PixelExplosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Systems/PostProcessing.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeDeathEffect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Baby Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Baby Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Daddy Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Daddy Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Momma Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/Cubes/Momma Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PostProcessing.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/PostProcessing.prefab.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Bow_Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Bow_Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_FireWand_Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_FireWand_Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Rock_Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Rock_Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Spear_pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Spear_pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Sword_Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Sword_Pickup.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level1-StartingPrisonRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level1-StartingPrisonRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Bow_Pickup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Bow_Pickup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_FireWand_Pickup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_FireWand_Pickup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Rock_Pickup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Rock_Pickup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Spear_pickup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Spear_pickup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Sword_Pickup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Sword_Pickup.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +54,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Destructable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Diego/Scripts/EventSample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Devs/Diego/Scripts/PuzzleTriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interactable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChangePad.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/ShadowReceiver.shader" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Resources/AutoLight.cginc" />
         <option value="$PROJECT_DIR$/Assets/Resources/UnityStandardShadow.cginc" />
         <option value="$PROJECT_DIR$/Assets/Resources/UnityStandardCoreForward.cginc" />
@@ -78,7 +90,6 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/Standard.shader" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/KindredBillboard.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ArrowType.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/DoubleSided.shader" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Shaders/CustomStandard.shader" />
@@ -86,23 +97,43 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestroyAfterSeconds.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Zihao/Scripts/Guns.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Damageable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Interfaces/Interactable.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/ColorChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LightSource.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DoorTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spinner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeSpinner1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/DamagedExample.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTestDummy.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Cade/Doors.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
         <option value="$PROJECT_DIR$/Assets/Example Scenes/Damaging Objects/CubeTrainingDummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Using Objects/CubeSpinner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/TrainingDummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/TestingLights.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerHealthDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/LoadLevelTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerSpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example Scenes/Damageable Objects/CubeTrainingDummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Helpers/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/LightScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Entity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/WeaponPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/PuzzleTriggerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Destructable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +192,21 @@
       <workItem from="1601214823598" duration="301000" />
       <workItem from="1601386207304" duration="5286000" />
       <workItem from="1601403251327" duration="2815000" />
+      <workItem from="1601476510323" duration="1512000" />
+      <workItem from="1601943209701" duration="2638000" />
+      <workItem from="1601990053239" duration="1165000" />
+      <workItem from="1602378096606" duration="2369000" />
+      <workItem from="1602596086213" duration="364000" />
+      <workItem from="1603718974460" duration="1089000" />
+      <workItem from="1603750747322" duration="786000" />
+      <workItem from="1604355899438" duration="547000" />
+      <workItem from="1604415569382" duration="6360000" />
+      <workItem from="1604968063607" duration="1249000" />
+      <workItem from="1605457740867" duration="3751000" />
+      <workItem from="1605462820197" duration="734000" />
+      <workItem from="1605801356611" duration="1703000" />
+      <workItem from="1606178492970" duration="1534000" />
+      <workItem from="1606351214274" duration="2349000" />
     </task>
     <servers />
   </component>
@@ -187,9 +233,16 @@
       <screen x="-2560" y="-182" width="2560" height="1350" />
     </state>
     <state x="-1716" y="264" key="Rider.ProjectTemplateDialog.Size/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1600974949455" />
-    <state x="-1301" y="229" key="RiderGenerateDialog" timestamp="1601399980774">
-      <screen x="-2560" y="-182" width="2560" height="1350" />
+    <state x="-1433" y="193" key="RiderGenerateDialog" timestamp="1606180500312">
+      <screen x="-2560" y="-180" width="2560" height="1325" />
     </state>
-    <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601399980774" />
+    <state x="-1433" y="193" key="RiderGenerateDialog/-2560.-180.2560.1325/0.25.1680.1025@-2560.-180.2560.1325" timestamp="1606180500312" />
+    <state x="-1301" y="224" key="RiderGenerateDialog/-2560.-180.2560.1328/0.25.1680.1025@-2560.-180.2560.1328" timestamp="1605458710044" />
+    <state x="-1301" y="229" key="RiderGenerateDialog/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1601945504535" />
+    <state x="-1433" y="150" width="670" height="665" key="search.everywhere.popup" timestamp="1605801439765">
+      <screen x="-2560" y="-180" width="2560" height="1328" />
+    </state>
+    <state x="-1433" y="150" width="670" height="665" key="search.everywhere.popup/-2560.-180.2560.1328/0.25.1680.1025@-2560.-180.2560.1328" timestamp="1605801439765" />
+    <state x="-1433" y="153" width="670" height="676" key="search.everywhere.popup/-2560.-182.2560.1350/0.23.1680.1027@-2560.-182.2560.1350" timestamp="1604417770781" />
   </component>
 </project>

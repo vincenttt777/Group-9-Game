@@ -7,20 +7,50 @@
       <e p="Assets" t="Include">
         <e p="Devs" t="Include">
           <e p="Cade" t="Include">
+            <e p="Chest.cs" t="Include" />
             <e p="Doors.cs" t="Include" />
+            <e p="Inventory.cs" t="Include" />
+            <e p="Pickup.cs" t="Include" />
+            <e p="Slot.cs" t="Include" />
+            <e p="StoneWalls" t="Include">
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Diego" t="Include">
+            <e p="Apartment_Door" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DoorController.cs" t="Include" />
+                <e p="KeyController.cs" t="Include" />
+                <e p="PlayerMovement.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Door.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="DoorScript.cs" t="Include" />
+              <e p="EventSample.cs" t="Include" />
+              <e p="LightScript.cs" t="Include" />
+              <e p="PuzzleTriggerEvent.cs" t="Include" />
+              <e p="TurnLight.cs" t="Include" />
+            </e>
           </e>
           <e p="Dom" t="Include">
             <e p="Scripts" t="Include">
               <e p="Arrow.cs" t="Include" />
               <e p="Billboard.cs" t="Include" />
               <e p="Bow.cs" t="Include" />
+              <e p="CameraController.cs" t="Include" />
               <e p="CameraMatrix.cs" t="Include" />
               <e p="ColorChangePad.cs" t="Include" />
               <e p="ColorChanger.cs" t="Include" />
+              <e p="DamageTester.cs" t="Include" />
               <e p="DestroyAfterSeconds.cs" t="Include" />
+              <e p="Destructable.cs" t="Include" />
+              <e p="DestructableDoor.cs" t="Include" />
               <e p="DoorTest.cs" t="Include" />
+              <e p="Entity.cs" t="Include" />
               <e p="GameCamera.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />
+              <e p="HeartContainer.cs" t="Include" />
               <e p="Helpers" t="Include">
                 <e p="Game.cs" t="Include" />
               </e>
@@ -29,27 +59,115 @@
                 <e p="Interactable.cs" t="Include" />
               </e>
               <e p="LightSource.cs" t="Include" />
+              <e p="LoadLevelTrigger.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
               <e p="PlayerController.cs" t="Include" />
+              <e p="PlayerHealthDisplay.cs" t="Include" />
+              <e p="PlayerSpawnPoint.cs" t="Include" />
               <e p="Projectile.cs" t="Include" />
+              <e p="Spear.cs" t="Include" />
               <e p="Sword.cs" t="Include" />
+              <e p="TestingLights.cs" t="Include" />
+              <e p="TestTrigger.cs" t="Include" />
+              <e p="Throwable.cs" t="Include" />
+              <e p="Wand.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
+              <e p="WeaponPickUp.cs" t="Include" />
             </e>
           </e>
           <e p="Ellen" t="Include">
+            <e p="ConeCollider" t="Include">
+              <e p="Samples" t="Include">
+                <e p="Sample_1" t="Include">
+                  <e p="CameraRotate.cs" t="Include" />
+                  <e p="InCheck.cs" t="Include" />
+                </e>
+                <e p="Sample_2" t="Include">
+                  <e p="SwingObject.cs" t="Include" />
+                </e>
+                <e p="Sample_3" t="Include">
+                  <e p="EnemyFind.cs" t="Include" />
+                  <e p="PlayerMove.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Script" t="Include">
+                <e p="ColliderTest.cs" t="Include" />
+                <e p="ConeCollider.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Materials" t="Include">
+              <e p="Cartoon FX - Copy" t="Include">
+                <e p="CartoonFX Free.txt" t="Include" />
+                <e p="Scripts" t="Include">
+                  <e p="CFX_AutoDestructShurikeloop.cs" t="Include" />
+                  <e p="CFX_AutoRotate1.cs" t="Include" />
+                  <e p="CFX_LightFlicker1.cs" t="Include" />
+                  <e p="CFX_LightIntensityFade1.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="CFX3 Multiply Color1.shader" t="Include" />
+                  <e p="CFXM_MobileParticleAdd_Alpha81.shader" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="Scripts" t="Include">
-              <e p="Key.cs" t="Include" />
+              <e p="ActiveFire.cs" t="Include" />
+              <e p="ActiveFire_l.cs" t="Include" />
+              <e p="ActiveFire_r.cs" t="Include" />
+              <e p="ActiveIce.cs" t="Include" />
+              <e p="ActiveStone.cs" t="Include" />
+              <e p="FallingStone.cs" t="Include" />
+              <e p="Fire.cs" t="Include" />
+              <e p="FlashRed.cs" t="Include" />
+              <e p="Ice.cs" t="Include" />
+              <e p="Key_opendoor.cs" t="Include" />
               <e p="KeyDoor.cs" t="Include" />
+              <e p="Keys.cs" t="Include" />
+              <e p="PlayerDamaged.cs" t="Include" />
+              <e p="Poisongas.cs" t="Include" />
+              <e p="potion.cs" t="Include" />
+              <e p="Spike.cs" t="Include" />
+              <e p="WallSpike.cs" t="Include" />
+              <e p="Weapons.cs" t="Include" />
             </e>
           </e>
           <e p="Zihao" t="Include">
+            <e p="Particals" t="Include">
+              <e p="JMO Assets" t="Include">
+                <e p="Cartoon FX" t="Include">
+                  <e p="CartoonFX Free.txt" t="Include" />
+                  <e p="Scripts" t="Include">
+                    <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+                    <e p="CFX_AutoRotate.cs" t="Include" />
+                    <e p="CFX_LightFlicker.cs" t="Include" />
+                    <e p="CFX_LightIntensityFade.cs" t="Include" />
+                  </e>
+                  <e p="Shaders" t="Include">
+                    <e p="CFX3 Multiply Color.shader" t="Include" />
+                    <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
             <e p="Scripts" t="Include">
-              <e p="Guns.cs" t="Include" />
-              <e p="Target.cs" t="Include" />
+              <e p="Enemy" t="Include">
+                <e p="Attack.cs" t="Include" />
+                <e p="Boss.cs" t="Include" />
+                <e p="BossSkill01.cs" t="Include" />
+                <e p="EnemyAI.cs" t="Include" />
+                <e p="enemyspwan.cs" t="Include" />
+                <e p="Skeleton.cs" t="Include" />
+                <e p="StormHead.cs" t="Include" />
+              </e>
+              <e p="Loot" t="Include">
+                <e p="CurrenctPickup.cs" t="Include" />
+              </e>
+              <e p="LootDrop.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="Example Scenes" t="Include">
-          <e p="Damaging Objects" t="Include">
+          <e p="Damageable Objects" t="Include">
             <e p="CubeTrainingDummy.cs" t="Include" />
           </e>
           <e p="Using Objects" t="Include">

@@ -46,6 +46,8 @@ public class LightScript : MonoBehaviour
                 }
             }
         }
+        
+        Game.Player.SetPlayerSpeedFactor(2f, 2f);
     }
 
     void OnGUI()

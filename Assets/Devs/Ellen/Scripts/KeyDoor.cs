@@ -24,6 +24,7 @@ public class KeyDoor : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    Game.GetGameManager().KeyCount -= 1;
                     Destroy(this.gameObject);
                 }
             }
@@ -35,11 +36,11 @@ public class KeyDoor : MonoBehaviour
         {
             if (Key.have_key == true)
             {
-                GUI.Box(new Rect(0, 60, 200, 25), "Press E to open the door");
+                GUI.Box(new Rect(0, 80, 200, 25), "Press E to open the door");
             }
             else
             {
-                GUI.Box(new Rect(0, 60, 200, 25), "You need to find a key");
+                GUI.Box(new Rect(0, 80, 200, 25), "You need to find a key");
             }
         }
     }

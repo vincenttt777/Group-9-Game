@@ -29,19 +29,35 @@ public class Sword : Weapon
         swing = !swing;
         Attack();
     }
+    
+    
+    public override void OnWeaponRelease()
+    {
+        swing = !swing;
+        Attack();
+    }
 
     public int attackPower = 3;
 
+    private GameManager _gameManager;
+
+    void OnEnable()
+    {
+        _gameManager = Game.GetGameManager();
+    }
+    
+    
     void Attack()
     {
-        Vector3 facingDirection = GameObject.FindObjectOfType<PlayerController>().facingDirection;
+        Vector3 facingDirection = _gameManager.Player.facingDirection;
 
         bool collision = false;
         
         var selectedObjects = Physics.SphereCastAll(transform.position + facingDirection * 0.1f, 0.5f, facingDirection, 0.5f);
+        
         foreach (var hit in selectedObjects)
         {
-            if (Game.DamageObject(hit.transform.gameObject, attackPower))
+            if (hit.transform != Game.GetPlayerTransform() && Game.DamageObject(hit.transform.gameObject, attackPower))
             {
                 collision = true;
                 break;

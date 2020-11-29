@@ -19,15 +19,17 @@ public class Projectile : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         //Debug.Log("Hit " + other.gameObject.name);
-        
+
         if (destroyPrefab != null)
         {
             Instantiate(destroyPrefab, transform.position + transform.forward * 0.6f, Quaternion.identity);
         }
+        if (other.tag != "Bullet")
+        {
+            Game.DamageObject(other.gameObject, damage);
 
-        Game.DamageObject(other.gameObject, damage);
-        
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
         // Send damageable?
     }
 }

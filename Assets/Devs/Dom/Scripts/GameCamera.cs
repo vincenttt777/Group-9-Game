@@ -18,6 +18,7 @@ public class GameCamera : MonoBehaviour
     private void Awake()
     {
         _camera = GetComponent<Camera>();
+        SnapToPosition();
     }
 
     public Camera Camera => _camera;
@@ -25,6 +26,11 @@ public class GameCamera : MonoBehaviour
     public void SetCameraTarget (Transform target)
     {
         _cameraTarget = target;
+    }
+
+    public void SnapToPosition()
+    {
+        transform.position = _cameraTarget.transform.position + positionOffset;
     }
     
     private void LateUpdate()
