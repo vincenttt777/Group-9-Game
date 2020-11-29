@@ -20,30 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74bc0551-6c79-484f-80a2-eb99898a74d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Bow_Pickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Bow_Pickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_FireWand_Pickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_FireWand_Pickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Rock_Pickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Rock_Pickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Spear_pickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Spear_pickup.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Sword_Pickup.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Weapons/Weapon_Sword_Pickup.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Dom/Scenes/WeaponsSampler.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Group-9-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Devs/Ellen/Scenes/Huaqi_Traps.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Devs/Ellen/Scenes/Huaqi_Traps.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Levels/Level1-StartingPrisonRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level1-StartingPrisonRoom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/GAMEBASE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Bow_Pickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Bow_Pickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_FireWand_Pickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_FireWand_Pickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Rock_Pickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Rock_Pickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Spear_pickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Spear_pickup.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Sword_Pickup.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Items/Weapon_Sword_Pickup.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +105,6 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Spear.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Wand.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Throwable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/DoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Diego/Scripts/PuzzleTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/HeartContainer.cs" />
@@ -134,6 +112,7 @@
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/DestructableDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Devs/Dom/Scripts/Projectile.cs" />
       </list>
     </option>
   </component>
@@ -206,7 +185,8 @@
       <workItem from="1605462820197" duration="734000" />
       <workItem from="1605801356611" duration="1703000" />
       <workItem from="1606178492970" duration="1534000" />
-      <workItem from="1606351214274" duration="2349000" />
+      <workItem from="1606351214274" duration="2672000" />
+      <workItem from="1606617947570" duration="522000" />
     </task>
     <servers />
   </component>
