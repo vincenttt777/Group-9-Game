@@ -7,7 +7,6 @@ using UnityEngine.Rendering;
 public class Key : MonoBehaviour
 {
     public bool inTrigger;
-    public Animation opendoor;
     public static Boolean have_key = false;
 
 
@@ -28,18 +27,7 @@ public class Key : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 have_key = true;
-                Destroy(this.gameObject);  
             }
         }
     }
-
-    private void OnGUI()
-    {
-        if (inTrigger)
-        {
-            GUI.Box(new Rect(0, 60, 200, 25), "Press E to take key");
-        }   
-    }
-
-
 }
