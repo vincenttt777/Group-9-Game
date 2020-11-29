@@ -8738,6 +8738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Baby Cube
       objectReference: {fileID: 0}
+    - target: {fileID: 180440017219579880, guid: 572d28647349b4238abbb754a482aeb9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 572d28647349b4238abbb754a482aeb9, type: 3}
 --- !u!1 &180440017576301358 stripped
@@ -8839,6 +8844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Daddy Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243588313173748849, guid: 64bf835e82bea4fc69d18627aaa5a386,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1243588313173748860, guid: 64bf835e82bea4fc69d18627aaa5a386,
         type: 3}
@@ -8982,6 +8992,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Momma Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905183601711819293, guid: 1b23130c0d5744ca2b0a095191a4f841,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b23130c0d5744ca2b0a095191a4f841, type: 3}

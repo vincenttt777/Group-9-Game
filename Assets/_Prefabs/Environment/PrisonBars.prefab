@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3258213903189975136}
   - component: {fileID: 3621467412775980193}
   - component: {fileID: 2418062653883017437}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PrisonBars
   m_TagString: Untagged
   m_Icon: {fileID: 0}

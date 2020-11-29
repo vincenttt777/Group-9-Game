@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 582826057740626690}
   - component: {fileID: 582826057740626694}
   - component: {fileID: 582826057740626695}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: PrisonDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

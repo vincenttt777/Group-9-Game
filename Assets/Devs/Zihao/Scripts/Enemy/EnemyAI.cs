@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using DG.Tweening;
-
 public class EnemyAI : MonoBehaviour, Damageable
 {
     public static GameObject loot1,loot2,loot3,loot4;
@@ -36,6 +35,9 @@ public class EnemyAI : MonoBehaviour, Damageable
     void Update()
     {
         float distance = Vector3.Distance(target.position, transform.position);
+        agent.updateRotation = false;
+        agent.stoppingDistance = 1f;
+        agent.SetDestination(target.position);
         if (transform.position.x < target.position.x)
         {
             GetComponent<SpriteRenderer>().flipX = true;
@@ -44,10 +46,17 @@ public class EnemyAI : MonoBehaviour, Damageable
         {
             GetComponent<SpriteRenderer>().flipX = false;
         }
-        agent.updateRotation = false;
-        agent.stoppingDistance = 1f;
-        animator.SetBool("PlayerInRange", true);
-        agent.SetDestination(target.position);
+        if (distance < lookRadius)//Chase Player
+        {
+            GetComponent<NavMeshAgent>().isStopped = false;
+            GetComponent<Animator>().SetBool("PlayerInRange", true);
+        }
+        else
+        {
+
+            GetComponent<NavMeshAgent>().isStopped = true;
+            GetComponent<Animator>().SetBool("PlayerInRange", false);
+        }
 
         if (distance <= attackRange)
         {
@@ -61,9 +70,9 @@ public class EnemyAI : MonoBehaviour, Damageable
 
     public void OnDamaged(int damage)
     {
+        transform.DOShakePosition(0.5f, Vector3.one * 0.1f, 20);
         currentHealth -= damage;
         animator.SetTrigger("Hurt");
-        transform.DOShakePosition(0.5f, Vector3.one * 0.1f, 20);
         if (currentHealth <= 0)
         {
             Die();
@@ -86,7 +95,6 @@ public class EnemyAI : MonoBehaviour, Damageable
 
     void Die()
     {
-        Debug.Log("Enemy is Dead");
         animator.SetBool("IsDead", true);
         Drop();
         GetComponent<Collider>().enabled = false;
@@ -98,12 +106,10 @@ public class EnemyAI : MonoBehaviour, Damageable
     {
         if (randomNumber <= 10)
         { Instantiate(Loots[0], transform.position, Quaternion.identity); }
-        else if (randomNumber >= 10 && randomNumber <= 50)
+        else if (randomNumber > 10 && randomNumber <= 50)
             Instantiate(Loots[1], transform.position, Quaternion.identity);
         else if (randomNumber > 50 && randomNumber <= 60)
-            Instantiate(Loots[2], transform.position, Quaternion.identity);
-        else if (randomNumber > 60 && randomNumber <= 70)
-            Instantiate(Loots[3], transform.position, Quaternion.identity);
+            Instantiate(Loots[1], transform.position, Quaternion.identity);
 
     }
 }

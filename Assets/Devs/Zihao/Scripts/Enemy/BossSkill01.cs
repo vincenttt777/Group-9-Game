@@ -45,6 +45,8 @@ public class BossSkill01 : MonoBehaviour
 
             Destroy(this.gameObject);
         }
+
+
         // Send damageable?
     }
 }

@@ -5,26 +5,28 @@ using UnityEngine.AI;
 using DG.Tweening;
 public class Skeleton : MonoBehaviour, Damageable
 {
-    public static GameObject loot0,loot1,loot2,loot3;
+    public static GameObject loot0, loot1, loot2, loot3, loot4, loot5, loot6;
 
     public int maxHealth = 50;
     public int currentHealth;
     public float attackRange = 1f;
     public float lookRadius = 15f;
     public float stoppingDistance = 3f;
+    public ParticleSystem death;
+    public Transform droppoint;
 
     Vector3 right = new Vector3(0.126f, -0.093f, 0f);
     Vector3 left = new Vector3(-0.126f, -0.093f, 0f);
 
     public Animator animator;
 
-    Transform target;
+    public Transform target;
     public Transform attackPoint;
     NavMeshAgent agent;
 
     public GameObject[] Loots =
     {
-        loot0,loot1,loot2,loot3
+        loot0,loot1,loot2,loot3,loot4,loot5,loot6
     };
 
     public int randomNumber;
@@ -47,10 +49,13 @@ public class Skeleton : MonoBehaviour, Damageable
         float distance = Vector3.Distance(target.position, transform.position);
         if (distance < lookRadius)//Chase Player
         {
+            GetComponent<NavMeshAgent>().isStopped = false;
             GetComponent<Animator>().SetBool("PlayerInRange", true);
         }
         else
         {
+            
+            GetComponent<NavMeshAgent>().isStopped = true;
             GetComponent<Animator>().SetBool("PlayerInRange", false);
         }
 
@@ -58,12 +63,14 @@ public class Skeleton : MonoBehaviour, Damageable
         {
             GetComponent<SpriteRenderer>().flipX = false;
             attackPoint.transform.localPosition = right;
+            GetComponent<BoxCollider>().center.Set(-0.03f,0f,0f);
             
         }
         else
         {
             GetComponent<SpriteRenderer>().flipX = true;
             attackPoint.transform.localPosition = left;
+            GetComponent<BoxCollider>().center.Set(0.06f, 0f, 0f);
         }
 
 
@@ -114,7 +121,7 @@ public class Skeleton : MonoBehaviour, Damageable
 
     void Die()
     {
-
+        death.Play();
         animator.Play("Skeleton_Die");
         Drop();
         GetComponent<Collider>().enabled = false;
@@ -126,13 +133,18 @@ public class Skeleton : MonoBehaviour, Damageable
     void Drop()
     {
         if (randomNumber <= 10)
-        { Instantiate(Loots[0], transform.position, Quaternion.identity); }
+        { Instantiate(Loots[0], droppoint.position, Quaternion.identity); }
         else if (randomNumber >= 10 && randomNumber <= 50)
-            Instantiate(Loots[1], transform.position, Quaternion.identity);
+            Instantiate(Loots[1], droppoint.position, Quaternion.identity);
         else if (randomNumber > 50 && randomNumber <= 60)
-            Instantiate(Loots[2], transform.position, Quaternion.identity);
+            Instantiate(Loots[2], droppoint.position, Quaternion.identity);
         else if(randomNumber > 60 && randomNumber<= 70)
-            Instantiate(Loots[3], transform.position, Quaternion.identity);
+            Instantiate(Loots[3], droppoint.position, Quaternion.identity);
+        else if (randomNumber > 70 && randomNumber <= 80)
+            Instantiate(Loots[4], droppoint.position, Quaternion.identity);
+        else if (randomNumber > 80 && randomNumber <= 90)
+            Instantiate(Loots[5], droppoint.position, Quaternion.identity);
+
 
     }
 }

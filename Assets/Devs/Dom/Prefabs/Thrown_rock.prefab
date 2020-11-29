@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5834694384612183732}
   - component: {fileID: 7773926647176060354}
   - component: {fileID: 839045532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Thrown_rock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3569325315827802312}
   - component: {fileID: 3562969594850163050}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

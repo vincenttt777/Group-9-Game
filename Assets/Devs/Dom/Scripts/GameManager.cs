@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     {
         // Reset player status
         _player.GetComponent<Player>().MaxHealth = 3;
-        _player.GetComponent<Player>().Health = 3;
+        _player.GetComponent<Player>().Health = 1;
         
         // Finish any special effects
         hurtRedFader.DOComplete();
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
     public void LoadScene(int index)
     {
         _sceneToLoad = index;
+        _player.GetComponent<Player>().invulnerable = true;
         
         titleScreen.DOKill();
         titleScreen.DOFade(0, 0).SetDelay(0.25f);
@@ -45,7 +47,7 @@ public class GameManager : MonoBehaviour
         gameOverScreen.DOKill();
         gameOverScreen.DOFade(0, 0).SetDelay(0.25f);
         gameOverScreen.blocksRaycasts = false;
-        
+
         _player.canControl = false;
         screenFader.DOFade(1f, 0.25f).OnComplete(DoSceneLoad);
     }
@@ -137,8 +139,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public Texture2D cursorImage;
     private void Awake ()
     {
+        Cursor.SetCursor(cursorImage, new Vector2(32,32), CursorMode.Auto);
         if (Instance != null)
         {
             //Debug.LogError("More than one instance of GameManager exists. Removing...");
