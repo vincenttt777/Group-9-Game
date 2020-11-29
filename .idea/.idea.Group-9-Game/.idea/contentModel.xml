@@ -120,7 +120,7 @@
               <e p="Fire.cs" t="Include" />
               <e p="FlashRed.cs" t="Include" />
               <e p="Ice.cs" t="Include" />
-              <e p="Key.cs" t="Include" />
+              <e p="Key_opendoor.cs" t="Include" />
               <e p="KeyDoor.cs" t="Include" />
               <e p="Keys.cs" t="Include" />
               <e p="PlayerDamaged.cs" t="Include" />
@@ -129,7 +129,6 @@
               <e p="Spike.cs" t="Include" />
               <e p="WallSpike.cs" t="Include" />
               <e p="Weapons.cs" t="Include" />
-              <e p="witch.cs" t="Include" />
             </e>
           </e>
           <e p="Zihao" t="Include">
